@@ -1,5 +1,7 @@
 # 💫 About Me:
-i am prushing b.tech <br>i am learning java <br>i 
+My name is karan.
+I am prushuing B.Tech form Quantum University 
+
 
 
 ## 🌐 Socials:
