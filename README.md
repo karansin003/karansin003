@@ -30,7 +30,7 @@
 ## 🌐 Connect With Me
 - LinkedIn: https://linkedin.com/in/karan-kumar-a4683932b  
 - Email: karansin8672@gmail.com  
-
+- LeetCode: https://leetcode.com/u/karansin8672/
 ---
 
 ## 📊 GitHub Stats
