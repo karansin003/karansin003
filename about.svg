@@ -1,22 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 500" width="1280" height="500" role="img" aria-label="About Karan Kumar — Architecture and Life Outside Code">
-  <title>About Karan Kumar — Architecture and Life Outside Code</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 500" width="1280" height="500" role="img" aria-label="About Karan Kumar — Developer Profile &amp; Life Outside Code">
+  <title>About Karan Kumar — Developer Profile &amp; Life Outside Code</title>
   <defs>
     <style>
       @keyframes fadeUp {
         from { opacity: 0; transform: translateY(12px); }
         to { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes fillRing1 {
-        0% { stroke-dashoffset: 100; }
-        100% { stroke-dashoffset: 15; }
-      }
-      @keyframes fillRing2 {
-        0% { stroke-dashoffset: 100; }
-        100% { stroke-dashoffset: 25; }
-      }
-      @keyframes fillRing3 {
-        0% { stroke-dashoffset: 100; }
-        100% { stroke-dashoffset: 35; }
       }
       .fu { animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
       text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
@@ -25,20 +13,20 @@
     </style>
 
     <linearGradient id="panelBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#14182b"/>
-      <stop offset="100%" stop-color="#0f111e"/>
+      <stop offset="0%" stop-color="#12162b"/>
+      <stop offset="100%" stop-color="#0b0e1b"/>
     </linearGradient>
 
     <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
       <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5"/>
     </linearGradient>
 
     <linearGradient id="borderGradRight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.45"/>
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.5"/>
       <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.5"/>
     </linearGradient>
 
     <pattern id="cardDots" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -46,129 +34,132 @@
     </pattern>
   </defs>
 
-  <!-- ==================== LEFT CARD: WHAT I BUILD & CORE FOCUS ==================== -->
+  <!-- ==================== LEFT CARD: DEVELOPER PROFILE ==================== -->
   <g transform="translate(0, 0)">
     <!-- Base Card -->
     <rect x="0" y="0" width="620" height="500" rx="20" fill="url(#panelBg)"/>
     <rect x="0" y="0" width="620" height="500" rx="20" fill="url(#cardDots)"/>
     <rect x="0.75" y="0.75" width="618.5" height="498.5" rx="19.25" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
 
-    <g transform="translate(36, 42)">
-      <text class="fu" x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2">// DEVELOPMENT ARCHITECTURE</text>
-      <text class="fu bold-title" x="0" y="32" font-size="26" fill="#f8fafc">Engineering Real-World Systems</text>
-      <text class="fu sans-font" x="0" y="58" font-size="14" fill="#94a3b8">B.Tech student passionate about full-stack products and applied AI.</text>
+    <g transform="translate(36, 40)">
+      <text class="fu" x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2">// DEVELOPER PROFILE</text>
+      <text class="fu bold-title" x="0" y="32" font-size="24" fill="#f8fafc">Building Real-World Systems</text>
+      <text class="fu sans-font" x="0" y="58" font-size="14" fill="#94a3b8">B.Tech student building production-ready apps with Node.js &amp; Python.</text>
 
-      <!-- Row 1: Full-Stack Applications -->
-      <g class="fu" transform="translate(0, 96)" style="animation-delay: 0.15s;">
-        <rect x="0" y="0" width="46" height="46" rx="12" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.4"/>
-        <!-- Code / Layers Icon -->
-        <path d="M15 28L23 32L31 28M15 23L23 27L31 23M23 14L15 18L23 22L31 18L23 14Z" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <text class="bold-title" x="62" y="18" font-size="16" fill="#f1f5f9">Full-Stack Development</text>
-        <text class="sans-font" x="62" y="38" font-size="13.5" fill="#94a3b8">Node.js, Express, React, PostgreSQL &amp; Firebase backends</text>
+      <!-- Focus Grid Header -->
+      <g transform="translate(0, 84)">
+        <rect x="0" y="0" width="130" height="24" rx="6" fill="#1e243d"/>
+        <text x="12" y="16" font-size="10.5" fill="#38bdf8" font-weight="700" letter-spacing="1">CURRENTLY FOCUSING ON</text>
       </g>
 
-      <!-- Row 2: AI & Machine Learning -->
-      <g class="fu" transform="translate(0, 168)" style="animation-delay: 0.3s;">
-        <rect x="0" y="0" width="46" height="46" rx="12" fill="#818cf8" fill-opacity="0.12" stroke="#818cf8" stroke-opacity="0.4"/>
-        <!-- Brain / Neural Icon -->
-        <circle cx="23" cy="23" r="6" fill="none" stroke="#818cf8" stroke-width="2"/>
-        <circle cx="14" cy="17" r="2.5" fill="#818cf8"/>
-        <circle cx="32" cy="17" r="2.5" fill="#818cf8"/>
-        <circle cx="16" cy="29" r="2.5" fill="#818cf8"/>
-        <circle cx="30" cy="29" r="2.5" fill="#818cf8"/>
-        <line x1="16" y1="18" x2="20" y2="20" stroke="#818cf8" stroke-width="1.5"/>
-        <line x1="30" y1="18" x2="26" y2="20" stroke="#818cf8" stroke-width="1.5"/>
-        <line x1="18" y1="28" x2="21" y2="26" stroke="#818cf8" stroke-width="1.5"/>
-        <line x1="28" y1="28" x2="25" y2="26" stroke="#818cf8" stroke-width="1.5"/>
-        <text class="bold-title" x="62" y="18" font-size="16" fill="#f1f5f9">AI &amp; Machine Learning</text>
-        <text class="sans-font" x="62" y="38" font-size="13.5" fill="#94a3b8">Python, NumPy, Pandas, Scikit-learn data processing</text>
+      <!-- Focus 1: Full-Stack Development -->
+      <g class="fu" transform="translate(0, 120)" style="animation-delay: 0.15s;">
+        <rect x="0" y="0" width="548" height="64" rx="12" fill="#161b32" stroke="#252c4a"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#38bdf8" fill-opacity="0.12"/>
+        <path d="M22 36L32 40L42 36M22 31L32 35L42 31M32 22L22 26L32 30L42 26L32 22Z" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(-10, -6)"/>
+        <text class="bold-title" x="64" y="27" font-size="15" fill="#f1f5f9">Full-Stack Development</text>
+        <text class="sans-font" x="64" y="47" font-size="12.5" fill="#94a3b8">Scalable backends with Node.js, Express, React, PostgreSQL &amp; Firebase</text>
       </g>
 
-      <!-- Row 3: Data Structures & Algorithms -->
-      <g class="fu" transform="translate(0, 240)" style="animation-delay: 0.45s;">
-        <rect x="0" y="0" width="46" height="46" rx="12" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-opacity="0.4"/>
-        <!-- Algorithmic Tree Icon -->
-        <circle cx="23" cy="14" r="3" fill="none" stroke="#f59e0b" stroke-width="2"/>
-        <circle cx="15" cy="30" r="3" fill="none" stroke="#f59e0b" stroke-width="2"/>
-        <circle cx="31" cy="30" r="3" fill="none" stroke="#f59e0b" stroke-width="2"/>
-        <line x1="21" y1="16" x2="16" y2="28" stroke="#f59e0b" stroke-width="1.5"/>
-        <line x1="25" y1="16" x2="30" y2="28" stroke="#f59e0b" stroke-width="1.5"/>
-        <text class="bold-title" x="62" y="18" font-size="16" fill="#f1f5f9">DSA &amp; Problem Solving</text>
-        <text class="sans-font" x="62" y="38" font-size="13.5" fill="#94a3b8">Java for algorithmic practice, LeetCode &amp; optimized logic</text>
+      <!-- Focus 2: Python Backend -->
+      <g class="fu" transform="translate(0, 196)" style="animation-delay: 0.3s;">
+        <rect x="0" y="0" width="548" height="64" rx="12" fill="#161b32" stroke="#252c4a"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#818cf8" fill-opacity="0.12"/>
+        <circle cx="32" cy="32" r="12" fill="none" stroke="#818cf8" stroke-width="1.8"/>
+        <text x="32" y="36" font-size="11" fill="#818cf8" font-weight="700" text-anchor="middle">PY</text>
+        <text class="bold-title" x="64" y="27" font-size="15" fill="#f1f5f9">Python Backend Development</text>
+        <text class="sans-font" x="64" y="47" font-size="12.5" fill="#94a3b8">RESTful APIs, web automation, data pipelines &amp; server architecture</text>
       </g>
 
-      <!-- Bottom Mini Terminal Preview -->
-      <g class="fu" transform="translate(0, 316)" style="animation-delay: 0.6s;">
-        <rect x="0" y="0" width="548" height="88" rx="10" fill="#0b0e1b" stroke="#1f2540"/>
-        <text x="16" y="26" font-size="12" fill="#64748b">karan@dev:~$ <tspan fill="#38bdf8">git</tspan> status</text>
-        <text x="16" y="48" font-size="12" fill="#34d399">On branch main · 4 active production projects verified</text>
-        <text x="16" y="70" font-size="12" fill="#94a3b8">Currently mastering: Java DSA &amp; Advanced Python APIs</text>
+      <!-- Focus 3: AI / ML -->
+      <g class="fu" transform="translate(0, 272)" style="animation-delay: 0.45s;">
+        <rect x="0" y="0" width="548" height="64" rx="12" fill="#161b32" stroke="#252c4a"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#a855f7" fill-opacity="0.12"/>
+        <circle cx="32" cy="32" r="5" fill="none" stroke="#a855f7" stroke-width="2"/>
+        <circle cx="23" cy="26" r="2" fill="#a855f7"/>
+        <circle cx="41" cy="26" r="2" fill="#a855f7"/>
+        <circle cx="26" cy="38" r="2" fill="#a855f7"/>
+        <circle cx="38" cy="38" r="2" fill="#a855f7"/>
+        <line x1="25" y1="27" x2="30" y2="30" stroke="#a855f7" stroke-width="1.2"/>
+        <line x1="39" y1="27" x2="34" y2="30" stroke="#a855f7" stroke-width="1.2"/>
+        <line x1="28" y1="37" x2="30" y2="34" stroke="#a855f7" stroke-width="1.2"/>
+        <line x1="36" y1="37" x2="34" y2="34" stroke="#a855f7" stroke-width="1.2"/>
+        <text class="bold-title" x="64" y="27" font-size="15" fill="#f1f5f9">AI &amp; Machine Learning</text>
+        <text class="sans-font" x="64" y="47" font-size="12.5" fill="#94a3b8">Applied models &amp; analytics with NumPy, Pandas, Scikit-learn</text>
+      </g>
+
+      <!-- Focus 4: Java DSA -->
+      <g class="fu" transform="translate(0, 348)" style="animation-delay: 0.6s;">
+        <rect x="0" y="0" width="548" height="64" rx="12" fill="#161b32" stroke="#252c4a"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#f59e0b" fill-opacity="0.12"/>
+        <circle cx="32" cy="24" r="3" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        <circle cx="24" cy="40" r="3" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        <circle cx="40" cy="40" r="3" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        <line x1="30" y1="26" x2="25" y2="38" stroke="#f59e0b" stroke-width="1.5"/>
+        <line x1="34" y1="26" x2="39" y2="38" stroke="#f59e0b" stroke-width="1.5"/>
+        <text class="bold-title" x="64" y="27" font-size="15" fill="#f1f5f9">Java DSA / Problem Solving</text>
+        <text class="sans-font" x="64" y="47" font-size="12.5" fill="#94a3b8">Data Structures, Algorithms, LeetCode &amp; optimized complexity</text>
       </g>
     </g>
   </g>
 
-  <!-- ==================== RIGHT CARD: BEYOND THE TERMINAL ==================== -->
+  <!-- ==================== RIGHT CARD: LIFE OUTSIDE CODE ==================== -->
   <g transform="translate(660, 0)">
     <!-- Base Card -->
     <rect x="0" y="0" width="620" height="500" rx="20" fill="url(#panelBg)"/>
     <rect x="0" y="0" width="620" height="500" rx="20" fill="url(#cardDots)"/>
     <rect x="0.75" y="0.75" width="618.5" height="498.5" rx="19.25" fill="none" stroke="url(#borderGradRight)" stroke-width="1.5"/>
 
-    <g transform="translate(36, 42)">
-      <text class="fu" x="0" y="0" font-size="12" fill="#818cf8" font-weight="700" letter-spacing="2">// BEYOND THE CODE</text>
-      <text class="fu bold-title" x="0" y="32" font-size="26" fill="#f8fafc">Hobbies &amp; Personal Focus</text>
-      <text class="fu sans-font" x="0" y="58" font-size="14" fill="#94a3b8">Maintaining analytical sharp minds through sports, exploration &amp; logic.</text>
+    <g transform="translate(36, 40)">
+      <text class="fu" x="0" y="0" font-size="12" fill="#818cf8" font-weight="700" letter-spacing="2">// LIFE OUTSIDE CODE</text>
+      <text class="fu bold-title" x="0" y="32" font-size="24" fill="#f8fafc">Hobbies &amp; Personal Focus</text>
+      <text class="fu sans-font" x="0" y="58" font-size="14" fill="#94a3b8">Active pursuits that nurture analytical clarity, discipline &amp; fresh ideas.</text>
 
       <!-- Hobby 1: Problem Solving -->
       <g class="fu" transform="translate(0, 96)" style="animation-delay: 0.15s;">
-        <rect x="0" y="0" width="548" height="66" rx="12" fill="#171b30" stroke="#252a45"/>
-        <rect x="12" y="12" width="42" height="42" rx="10" fill="#f59e0b" fill-opacity="0.12"/>
-        <text x="33" y="38" font-size="18" text-anchor="middle">🧩</text>
-        <text class="bold-title" x="66" y="28" font-size="15.5" fill="#f1f5f9">Problem Solving</text>
-        <text class="sans-font" x="66" y="48" font-size="13" fill="#94a3b8">Competitive programming puzzles, brainteasers &amp; optimization</text>
+        <rect x="0" y="0" width="548" height="74" rx="14" fill="#161b32" stroke="#252a45"/>
+        <rect x="14" y="14" width="46" height="46" rx="12" fill="#f59e0b" fill-opacity="0.12"/>
+        <text x="37" y="42" font-size="20" text-anchor="middle">🧩</text>
+        <text class="bold-title" x="72" y="32" font-size="16" fill="#f1f5f9">Problem Solving</text>
+        <text class="sans-font" x="72" y="54" font-size="13" fill="#94a3b8">Algorithmic thinking, brain teasers, strategy games &amp; optimization</text>
       </g>
 
       <!-- Hobby 2: Cricket -->
-      <g class="fu" transform="translate(0, 174)" style="animation-delay: 0.3s;">
-        <rect x="0" y="0" width="548" height="66" rx="12" fill="#171b30" stroke="#252a45"/>
-        <rect x="12" y="12" width="42" height="42" rx="10" fill="#34d399" fill-opacity="0.12"/>
-        <text x="33" y="38" font-size="18" text-anchor="middle">🏏</text>
-        <text class="bold-title" x="66" y="28" font-size="15.5" fill="#f1f5f9">Cricket</text>
-        <text class="sans-font" x="66" y="48" font-size="13" fill="#94a3b8">Tactical gameplay, field focus, teamwork &amp; fitness</text>
+      <g class="fu" transform="translate(0, 186)" style="animation-delay: 0.3s;">
+        <rect x="0" y="0" width="548" height="74" rx="14" fill="#161b32" stroke="#252a45"/>
+        <rect x="14" y="14" width="46" height="46" rx="12" fill="#34d399" fill-opacity="0.12"/>
+        <text x="37" y="42" font-size="20" text-anchor="middle">🏏</text>
+        <text class="bold-title" x="72" y="32" font-size="16" fill="#f1f5f9">Cricket</text>
+        <text class="sans-font" x="72" y="54" font-size="13" fill="#94a3b8">Tactical gameplay, field focus, teamwork, endurance &amp; agility</text>
       </g>
 
       <!-- Hobby 3: Travelling -->
-      <g class="fu" transform="translate(0, 252)" style="animation-delay: 0.45s;">
-        <rect x="0" y="0" width="548" height="66" rx="12" fill="#171b30" stroke="#252a45"/>
-        <rect x="12" y="12" width="42" height="42" rx="10" fill="#38bdf8" fill-opacity="0.12"/>
-        <text x="33" y="38" font-size="18" text-anchor="middle">✈️</text>
-        <text class="bold-title" x="66" y="28" font-size="15.5" fill="#f1f5f9">Travelling</text>
-        <text class="sans-font" x="66" y="48" font-size="13" fill="#94a3b8">Exploring new locations, hill landscapes &amp; gaining fresh perspective</text>
+      <g class="fu" transform="translate(0, 276)" style="animation-delay: 0.45s;">
+        <rect x="0" y="0" width="548" height="74" rx="14" fill="#161b32" stroke="#252a45"/>
+        <rect x="14" y="14" width="46" height="46" rx="12" fill="#38bdf8" fill-opacity="0.12"/>
+        <text x="37" y="42" font-size="20" text-anchor="middle">✈️</text>
+        <text class="bold-title" x="72" y="32" font-size="16" fill="#f1f5f9">Travelling</text>
+        <text class="sans-font" x="72" y="54" font-size="13" fill="#94a3b8">Exploring new destinations, mountain horizons &amp; cultural perspectives</text>
       </g>
 
       <!-- Focus Rings: Daily Principles -->
-      <g class="fu" transform="translate(0, 336)" style="animation-delay: 0.6s;">
-        <rect x="0" y="0" width="548" height="74" rx="12" fill="#101322" stroke="#21263d"/>
-
-        <!-- Ring 1: Code -->
-        <g transform="translate(36, 37)">
-          <circle r="18" fill="none" stroke="#333856" stroke-width="4"/>
-          <circle r="18" fill="none" stroke="#38bdf8" stroke-width="4" stroke-dasharray="113" stroke-dashoffset="20" stroke-linecap="round" transform="rotate(-90)"/>
-          <text class="bold-title" x="32" y="5" font-size="14" fill="#f1f5f9">Build</text>
+      <g class="fu" transform="translate(0, 366)" style="animation-delay: 0.6s;">
+        <rect x="0" y="0" width="548" height="54" rx="12" fill="#101322" stroke="#21263d"/>
+        <g transform="translate(24, 32)">
+          <circle cx="0" cy="0" r="4" fill="#38bdf8"/>
+          <text class="bold-title" x="12" y="4" font-size="13" fill="#f1f5f9">Code</text>
         </g>
-
-        <!-- Ring 2: Learn -->
-        <g transform="translate(200, 37)">
-          <circle r="18" fill="none" stroke="#333856" stroke-width="4"/>
-          <circle r="18" fill="none" stroke="#818cf8" stroke-width="4" stroke-dasharray="113" stroke-dashoffset="30" stroke-linecap="round" transform="rotate(-90)"/>
-          <text class="bold-title" x="32" y="5" font-size="14" fill="#f1f5f9">Learn</text>
+        <g transform="translate(160, 32)">
+          <circle cx="0" cy="0" r="4" fill="#818cf8"/>
+          <text class="bold-title" x="12" y="4" font-size="13" fill="#f1f5f9">Learn</text>
         </g>
-
-        <!-- Ring 3: Solve -->
-        <g transform="translate(364, 37)">
-          <circle r="18" fill="none" stroke="#333856" stroke-width="4"/>
-          <circle r="18" fill="none" stroke="#34d399" stroke-width="4" stroke-dasharray="113" stroke-dashoffset="25" stroke-linecap="round" transform="rotate(-90)"/>
-          <text class="bold-title" x="32" y="5" font-size="14" fill="#f1f5f9">Solve</text>
+        <g transform="translate(290, 32)">
+          <circle cx="0" cy="0" r="4" fill="#34d399"/>
+          <text class="bold-title" x="12" y="4" font-size="13" fill="#f1f5f9">Build</text>
+        </g>
+        <g transform="translate(420, 32)">
+          <circle cx="0" cy="0" r="4" fill="#c084fc"/>
+          <text class="bold-title" x="12" y="4" font-size="13" fill="#f1f5f9">Repeat</text>
         </g>
       </g>
     </g>
