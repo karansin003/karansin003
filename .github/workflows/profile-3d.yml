@@ -1,0 +1,34 @@
+name: 3D contribution city 🌃
+
+on:
+  schedule:
+    - cron: "0 18 * * *"     # daily at 18:00 UTC
+  workflow_dispatch:          # manual trigger
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-3d-contribution
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & push
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add profile-3d-contrib/
+          if git commit -m "build: update 3d contribution city [skip ci]"; then
+            git push
+          fi

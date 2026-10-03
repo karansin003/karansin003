@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Connect With Karan Kumar">
+  <title>Connect With Karan Kumar</title>
+  <defs>
+    <style>
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes nudgeArrow {
+        0%, 100% { transform: translateX(0); }
+        50% { transform: translateX(4px); }
+      }
+      @keyframes pulseRing {
+        0%, 100% { opacity: 0.3; transform: scale(0.96); }
+        50% { opacity: 0.8; transform: scale(1.04); }
+      }
+      .fu { animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .arrow { animation: nudgeArrow 1.8s ease-in-out infinite; }
+      .avatar-pulse { transform-origin: 190px 220px; animation: pulseRing 3.5s ease-in-out infinite; }
+      text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; }
+    </style>
+
+    <linearGradient id="connectBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121528"/>
+      <stop offset="100%" stop-color="#0d0f1b"/>
+    </linearGradient>
+
+    <linearGradient id="connectBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <radialGradient id="avatarGlow">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="connectDots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.8" fill="#ffffff" fill-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="1280" height="440" rx="24" fill="url(#connectBg)"/>
+  <rect width="1280" height="440" rx="24" fill="url(#connectDots)"/>
+  <rect x="0.75" y="0.75" width="1278.5" height="438.5" rx="23.25" fill="none" stroke="url(#connectBorder)" stroke-width="1.5"/>
+
+  <!-- ==================== LEFT: FUTURISTIC IDENTITY CARD ==================== -->
+  <g transform="translate(60, 50)">
+    <rect x="0" y="0" width="360" height="340" rx="18" fill="#151930" stroke="#252c4a" stroke-width="1.2"/>
+
+    <!-- ID Header Strip -->
+    <rect x="0" y="0" width="360" height="36" rx="18" fill="#1b203a"/>
+    <rect x="0" y="20" width="360" height="16" fill="#1b203a"/>
+    <text x="24" y="22" font-size="11" fill="#38bdf8" font-weight="700" letter-spacing="2">DEVELOPER IDENTIFIER</text>
+    <circle cx="336" cy="18" r="4" fill="#34d399"/>
+
+    <!-- Geometric Futuristic Avatar Graphic -->
+    <g transform="translate(180, 130)">
+      <!-- Ambient Glow Ring -->
+      <circle r="60" fill="url(#avatarGlow)" class="avatar-pulse"/>
+      <polygon points="0,-48 42,-24 42,24 0,48 -42,24 -42,-24" fill="#101426" stroke="#38bdf8" stroke-width="2"/>
+      <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20" fill="none" stroke="#818cf8" stroke-width="1" stroke-dasharray="4 3"/>
+      <!-- Inner Developer Core Symbol -->
+      <path d="M-14 -6 L-22 0 L-14 6 M14 -6 L22 0 L14 6 M-4 12 L4 -12" fill="none" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Identity Information -->
+    <g transform="translate(0, 225)">
+      <text class="bold-title" x="180" y="0" font-size="20" fill="#f8fafc" text-anchor="middle">Karan Kumar</text>
+      <text x="180" y="22" font-size="12" fill="#818cf8" font-weight="600" text-anchor="middle">@karansin003</text>
+      <text class="sans-font" x="180" y="44" font-size="12.5" fill="#94a3b8" text-anchor="middle">Roorkee, Uttarakhand, India</text>
+      <rect x="55" y="62" width="250" height="28" rx="8" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.3"/>
+      <text x="180" y="80" font-size="11" fill="#34d399" font-weight="700" text-anchor="middle" letter-spacing="1">FULL-STACK &amp; AI/ML</text>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT: 6 CONNECT & CODING PROFILES ==================== -->
+  <g transform="translate(460, 50)">
+    <!-- Header -->
+    <text class="fu" x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2">// GET IN TOUCH</text>
+    <text class="fu bold-title" x="0" y="30" font-size="26" fill="#f8fafc">Connect &amp; Coding Profiles</text>
+    <text class="fu sans-font" x="0" y="54" font-size="13.5" fill="#94a3b8">Feel free to reach out for collaborations, discussions, or opportunities.</text>
+
+    <!-- Grid of 6 Profile Cards (2 Columns x 3 Rows) -->
+    <g transform="translate(0, 80)">
+      <!-- Row 1, Col 1: LinkedIn -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="370" height="64" rx="14" fill="#151930" stroke="#252a45"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#0077b5" fill-opacity="0.15"/>
+        <text x="32" y="37" font-size="16" fill="#0a66c2" font-weight="700" text-anchor="middle">in</text>
+        <text class="bold-title" x="64" y="27" font-size="14.5" fill="#f1f5f9">LinkedIn</text>
+        <text x="64" y="46" font-size="11.5" fill="#94a3b8">linkedin.com/in/karan003</text>
+        <g class="arrow" transform="translate(340, 32)">
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <!-- Row 1, Col 2: LeetCode -->
+      <g transform="translate(390, 0)">
+        <rect x="0" y="0" width="370" height="64" rx="14" fill="#151930" stroke="#252a45"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#f59e0b" fill-opacity="0.15"/>
+        <text x="32" y="37" font-size="16" fill="#f59e0b" font-weight="700" text-anchor="middle">&lt;&gt;</text>
+        <text class="bold-title" x="64" y="27" font-size="14.5" fill="#f1f5f9">LeetCode</text>
+        <text x="64" y="46" font-size="11.5" fill="#94a3b8">leetcode.com/u/karansin8672</text>
+        <g class="arrow" transform="translate(340, 32)">
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <!-- Row 2, Col 1: Portfolio -->
+      <g transform="translate(0, 76)">
+        <rect x="0" y="0" width="370" height="64" rx="14" fill="#151930" stroke="#252a45"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#818cf8" fill-opacity="0.15"/>
+        <text x="32" y="37" font-size="16" text-anchor="middle">🌐</text>
+        <text class="bold-title" x="64" y="27" font-size="14.5" fill="#f1f5f9">Portfolio Website</text>
+        <text x="64" y="46" font-size="11.5" fill="#94a3b8">karan-kumar.onrender.com</text>
+        <g class="arrow" transform="translate(340, 32)">
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <!-- Row 2, Col 2: Email -->
+      <g transform="translate(390, 76)">
+        <rect x="0" y="0" width="370" height="64" rx="14" fill="#151930" stroke="#252a45"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#ef4444" fill-opacity="0.15"/>
+        <text x="32" y="37" font-size="16" text-anchor="middle">✉️</text>
+        <text class="bold-title" x="64" y="27" font-size="14.5" fill="#f1f5f9">Direct Email</text>
+        <text x="64" y="46" font-size="11.5" fill="#94a3b8">karansin8672@gmail.com</text>
+        <g class="arrow" transform="translate(340, 32)">
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <!-- Row 3, Col 1: GitHub -->
+      <g transform="translate(0, 152)">
+        <rect x="0" y="0" width="370" height="64" rx="14" fill="#151930" stroke="#252a45"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#94a3b8" fill-opacity="0.15"/>
+        <text x="32" y="37" font-size="16" text-anchor="middle">🐙</text>
+        <text class="bold-title" x="64" y="27" font-size="14.5" fill="#f1f5f9">GitHub Profile</text>
+        <text x="64" y="46" font-size="11.5" fill="#94a3b8">github.com/karansin003</text>
+        <g class="arrow" transform="translate(340, 32)">
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+
+      <!-- Row 3, Col 2: X (Twitter) -->
+      <g transform="translate(390, 152)">
+        <rect x="0" y="0" width="370" height="64" rx="14" fill="#151930" stroke="#252a45"/>
+        <rect x="12" y="12" width="40" height="40" rx="10" fill="#38bdf8" fill-opacity="0.15"/>
+        <text x="32" y="37" font-size="16" fill="#f1f5f9" font-weight="700" text-anchor="middle">𝕏</text>
+        <text class="bold-title" x="64" y="27" font-size="14.5" fill="#f1f5f9">X (Twitter)</text>
+        <text x="64" y="46" font-size="11.5" fill="#94a3b8">x.com/KaranKumar51768</text>
+        <g class="arrow" transform="translate(340, 32)">
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- Bottom Quote Motto -->
+    <text class="fu" x="0" y="325" font-size="12" fill="#64748b" style="animation-delay: 0.8s;">
+      "Code. Learn. Build. Repeat." · Open to internships &amp; software engineering roles.
+    </text>
+  </g>
+</svg>

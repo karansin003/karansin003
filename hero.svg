@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-label="Karan Kumar — Full-Stack Developer &amp; AI/ML Student">
+  <title>Karan Kumar — Full-Stack Developer &amp; AI/ML Student</title>
+  <defs>
+    <style>
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(14px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+      @keyframes ring {
+        0% { r: 4px; opacity: 0.8; }
+        100% { r: 14px; opacity: 0; }
+      }
+      @keyframes drift1 {
+        from { transform: translate(0, 0); }
+        to { transform: translate(35px, -25px); }
+      }
+      @keyframes drift2 {
+        from { transform: translate(0, 0); }
+        to { transform: translate(-40px, 30px); }
+      }
+      @keyframes roleCycle {
+        0%, 22% { opacity: 1; transform: translateY(0); }
+        25%, 97% { opacity: 0; transform: translateY(-16px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes role2Cycle {
+        0%, 24% { opacity: 0; transform: translateY(16px); }
+        27%, 47% { opacity: 1; transform: translateY(0); }
+        50%, 100% { opacity: 0; transform: translateY(-16px); }
+      }
+      @keyframes role3Cycle {
+        0%, 49% { opacity: 0; transform: translateY(16px); }
+        52%, 72% { opacity: 1; transform: translateY(0); }
+        75%, 100% { opacity: 0; transform: translateY(-16px); }
+      }
+      @keyframes role4Cycle {
+        0%, 74% { opacity: 0; transform: translateY(16px); }
+        77%, 97% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(-16px); }
+      }
+      @keyframes coreRotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes coreCounterRotate {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes nodePulse {
+        0%, 100% { opacity: 0.4; transform: scale(0.95); }
+        50% { opacity: 1; transform: scale(1.08); }
+      }
+      @keyframes radarSweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-220px); opacity: 0; }
+        50% { opacity: 0.6; }
+        100% { transform: translateY(220px); opacity: 0; }
+      }
+      .fu { animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .fi { animation: fadeIn 0.8s ease both; }
+      .blob1 { animation: drift1 14s ease-in-out infinite alternate; }
+      .blob2 { animation: drift2 16s ease-in-out infinite alternate; }
+      .rot { transform-origin: 940px 270px; animation: coreRotate 24s linear infinite; }
+      .crot { transform-origin: 940px 270px; animation: coreCounterRotate 18s linear infinite; }
+      .nodep { transform-origin: 940px 270px; animation: nodePulse 3s ease-in-out infinite; }
+      .scan { animation: scanline 4s ease-in-out infinite; }
+      .role1 { animation: roleCycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      .role2 { animation: role2Cycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      .role3 { animation: role3Cycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      .role4 { animation: role4Cycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
+      .display-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#111322"/>
+      <stop offset="100%" stop-color="#0b0d17"/>
+    </linearGradient>
+
+    <linearGradient id="edgeGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#262a42" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="cyberCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <pattern id="matrixDots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.9" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="ambientBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect width="1280" height="540" rx="24"/>
+    </clipPath>
+
+    <clipPath id="terminalScreenClip">
+      <rect x="740" y="110" width="400" height="320" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base Background -->
+    <rect width="1280" height="540" fill="url(#cardBg)"/>
+    <rect width="1280" height="540" fill="url(#matrixDots)"/>
+
+    <!-- Ambient Glow Orbs -->
+    <g filter="url(#ambientBlur)" opacity="0.45">
+      <circle class="blob1" cx="220" cy="140" r="160" fill="#22d3ee" fill-opacity="0.25"/>
+      <circle class="blob2" cx="540" cy="460" r="180" fill="#818cf8" fill-opacity="0.22"/>
+      <circle class="blob1" cx="1040" cy="180" r="170" fill="#38bdf8" fill-opacity="0.20"/>
+    </g>
+
+    <!-- Outer Hairline Gradient Border -->
+    <rect x="0.75" y="0.75" width="1278.5" height="538.5" rx="23.25" fill="none" stroke="url(#edgeGlow)" stroke-width="1.5"/>
+
+    <!-- ==================== LEFT COLUMN: INTRODUCTION & IDENTITY ==================== -->
+    <g transform="translate(60, 0)">
+      <!-- Status Badge -->
+      <g class="fu" style="animation-delay: 0.1s;">
+        <rect x="0" y="58" width="168" height="30" rx="15" fill="#34d399" fill-opacity="0.1" stroke="#34d399" stroke-opacity="0.35"/>
+        <circle cx="16" cy="73" r="4" fill="#34d399"/>
+        <circle cx="16" cy="73" r="4" fill="none" stroke="#34d399" stroke-width="1.5">
+          <animate attributeName="r" values="4;13" dur="2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="28" y="77" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.5">OPEN TO COLLABS</text>
+      </g>
+
+      <!-- Welcome Label -->
+      <text class="fu sans-font" x="2" y="148" font-size="28" font-weight="500" fill="#94a3b8" style="animation-delay: 0.25s;">
+        Hi there, I'm
+      </text>
+
+      <!-- Full Name Header -->
+      <text class="fu display-name" x="0" y="224" font-size="70" letter-spacing="-1.5" fill="url(#nameGradient)" filter="url(#glowFilter)" style="animation-delay: 0.4s;">
+        Karan Kumar
+      </text>
+
+      <!-- Cycling Roles Section -->
+      <g transform="translate(2, 280)">
+        <text class="fi" x="0" y="0" font-size="22" font-weight="700" fill="#38bdf8" style="animation-delay: 0.55s;">&gt;</text>
+        <text class="role1" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">Full-Stack Developer</text>
+        <text class="role2" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">AI/ML Student</text>
+        <text class="role3" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">Java DSA / Problem Solver</text>
+        <text class="role4" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">Problem Solver</text>
+      </g>
+
+      <!-- Bio / Description -->
+      <g class="fu sans-font" style="animation-delay: 0.7s;">
+        <text x="2" y="328" font-size="16" fill="#94a3b8" font-weight="400">
+          B.Tech CSE (AI/ML) · Building scalable applications with Node.js &amp; Python.
+        </text>
+        <text x="2" y="356" font-size="16" fill="#94a3b8" font-weight="400">
+          Actively practicing Data Structures, Algorithms, and Core Computer Science.
+        </text>
+      </g>
+
+      <!-- Meta Pill Row -->
+      <g class="fu" style="animation-delay: 0.85s;" transform="translate(0, 424)">
+        <!-- Location -->
+        <g transform="translate(0, 0)">
+          <rect x="0" y="0" width="176" height="38" rx="10" fill="#1e2238" stroke="#333856" stroke-width="1"/>
+          <path d="M16 19c0-4.4 3.6-8 8-8s8 3.6 8 8c0 5-8 12-8 12s-8-7-8-12z" fill="none" stroke="#38bdf8" stroke-width="1.8" transform="translate(0,-5)"/>
+          <circle cx="24" cy="14" r="2.5" fill="#38bdf8"/>
+          <text x="38" y="24" font-size="13" fill="#cbd5e1" font-weight="500">Roorkee, India</text>
+        </g>
+
+        <!-- Focus -->
+        <g transform="translate(188, 0)">
+          <rect x="0" y="0" width="194" height="38" rx="10" fill="#1e2238" stroke="#333856" stroke-width="1"/>
+          <rect x="14" y="11" width="16" height="16" rx="3" fill="none" stroke="#818cf8" stroke-width="1.8"/>
+          <path d="M18 19l3 3 5-6" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="38" y="24" font-size="13" fill="#cbd5e1" font-weight="500">B.Tech CSE (AI/ML)</text>
+        </g>
+
+        <!-- Quote Motto -->
+        <g transform="translate(394, 0)">
+          <rect x="0" y="0" width="220" height="38" rx="10" fill="#1e2238" stroke="#333856" stroke-width="1"/>
+          <circle cx="16" cy="19" r="3" fill="#c084fc"/>
+          <text x="26" y="24" font-size="12.5" fill="#cbd5e1" font-weight="500">Code. Learn. Build. Repeat.</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ==================== RIGHT COLUMN: FUTURISTIC DEVELOPER CONSOLE ==================== -->
+    <g transform="translate(710, 60)">
+      <!-- Backdrop Glow & Base Panel -->
+      <rect x="0" y="0" width="490" height="420" rx="20" fill="#121526" fill-opacity="0.8" stroke="#252a45" stroke-width="1.5"/>
+      <rect x="0" y="0" width="490" height="36" rx="20" fill="#181c32"/>
+      <rect x="0" y="20" width="490" height="16" fill="#181c32"/>
+
+      <!-- Window Action Dots -->
+      <circle cx="22" cy="18" r="5.5" fill="#ef4444" fill-opacity="0.85"/>
+      <circle cx="39" cy="18" r="5.5" fill="#f59e0b" fill-opacity="0.85"/>
+      <circle cx="56" cy="18" r="5.5" fill="#10b981" fill-opacity="0.85"/>
+      <text x="245" y="22" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">dev-terminal // karan-system-v2.0</text>
+      <circle cx="468" cy="18" r="3" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Terminal Body Content -->
+      <g transform="translate(24, 60)">
+        <!-- CLI Command 1 -->
+        <text x="0" y="16" font-size="12.5" fill="#38bdf8" font-weight="600">karan@workspace<tspan fill="#64748b">:</tspan><tspan fill="#c084fc">~/portfolio</tspan><tspan fill="#64748b">$</tspan> <tspan fill="#f1f5f9">node --version &amp;&amp; python3 --version</tspan></text>
+        <text x="0" y="38" font-size="12" fill="#94a3b8">v20.12.0 · Python 3.11.8 (AI/ML ready)</text>
+
+        <!-- CLI Command 2 -->
+        <text x="0" y="74" font-size="12.5" fill="#38bdf8" font-weight="600">karan@workspace<tspan fill="#64748b">:</tspan><tspan fill="#c084fc">~/portfolio</tspan><tspan fill="#64748b">$</tspan> <tspan fill="#f1f5f9">cat system_status.json</tspan></text>
+      </g>
+
+      <!-- Holographic Circuit / Node Grid Visualizer -->
+      <g transform="translate(30, 160)">
+        <!-- Grid Matrix Frame -->
+        <rect x="0" y="0" width="430" height="175" rx="12" fill="#0b0e1b" stroke="#1f2540" stroke-width="1"/>
+
+        <!-- Ambient Circuit Grid Lines -->
+        <line x1="20" y1="40" x2="410" y2="40" stroke="#1e293b" stroke-dasharray="4 4"/>
+        <line x1="20" y1="88" x2="410" y2="88" stroke="#1e293b" stroke-dasharray="4 4"/>
+        <line x1="20" y1="136" x2="410" y2="136" stroke="#1e293b" stroke-dasharray="4 4"/>
+
+        <!-- Futuristic Circuit Nodes & Interactive Metrics -->
+        <!-- Node 1: Core Backend -->
+        <g transform="translate(40, 24)">
+          <rect x="0" y="0" width="105" height="52" rx="8" fill="#151b30" stroke="#38bdf8" stroke-opacity="0.5"/>
+          <circle cx="16" cy="18" r="4" fill="#38bdf8"/>
+          <text x="28" y="22" font-size="10" fill="#38bdf8" font-weight="700">BACKEND</text>
+          <text x="14" y="42" font-size="11.5" fill="#f8fafc" font-weight="600">Node / Python</text>
+        </g>
+
+        <!-- Connecting Line 1 to Center -->
+        <path d="M145 50 H 180 V 88 H 200" fill="none" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1.5"/>
+
+        <!-- Node 2: DSA Engine -->
+        <g transform="translate(40, 98)">
+          <rect x="0" y="0" width="105" height="52" rx="8" fill="#151b30" stroke="#f59e0b" stroke-opacity="0.5"/>
+          <circle cx="16" cy="18" r="4" fill="#f59e0b"/>
+          <text x="28" y="22" font-size="10" fill="#f59e0b" font-weight="700">ALGORITHMS</text>
+          <text x="14" y="42" font-size="11.5" fill="#f8fafc" font-weight="600">Java DSA</text>
+        </g>
+
+        <!-- Connecting Line 2 to Center -->
+        <path d="M145 124 H 180 V 88 H 200" fill="none" stroke="#f59e0b" stroke-opacity="0.6" stroke-width="1.5"/>
+
+        <!-- Central Holographic Core -->
+        <g transform="translate(215, 88)">
+          <circle r="36" fill="#10172d" stroke="#818cf8" stroke-opacity="0.5" stroke-width="1.5"/>
+          <circle r="44" fill="none" stroke="#818cf8" stroke-dasharray="6 4" stroke-opacity="0.3"/>
+          <circle r="20" fill="none" stroke="#38bdf8" stroke-width="2">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+          </circle>
+          <path d="M-8 -8 L8 8 M-8 8 L8 -8" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="0" cy="0" r="3" fill="#c084fc">
+            <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+
+        <!-- Connecting Line Center to 3 & 4 -->
+        <path d="M230 88 H 270 V 50 H 285" fill="none" stroke="#818cf8" stroke-opacity="0.6" stroke-width="1.5"/>
+        <path d="M230 88 H 270 V 124 H 285" fill="none" stroke="#10b981" stroke-opacity="0.6" stroke-width="1.5"/>
+
+        <!-- Node 3: Machine Learning -->
+        <g transform="translate(285, 24)">
+          <rect x="0" y="0" width="105" height="52" rx="8" fill="#151b30" stroke="#818cf8" stroke-opacity="0.5"/>
+          <circle cx="16" cy="18" r="4" fill="#818cf8"/>
+          <text x="28" y="22" font-size="10" fill="#818cf8" font-weight="700">AI / ML</text>
+          <text x="14" y="42" font-size="11.5" fill="#f8fafc" font-weight="600">NumPy · Pandas</text>
+        </g>
+
+        <!-- Node 4: Persistence -->
+        <g transform="translate(285, 98)">
+          <rect x="0" y="0" width="105" height="52" rx="8" fill="#151b30" stroke="#10b981" stroke-opacity="0.5"/>
+          <circle cx="16" cy="18" r="4" fill="#10b981"/>
+          <text x="28" y="22" font-size="10" fill="#10b981" font-weight="700">DATABASE</text>
+          <text x="14" y="42" font-size="11.5" fill="#f8fafc" font-weight="600">PostgreSQL · SQL</text>
+        </g>
+      </g>
+
+      <!-- Terminal Status Bar -->
+      <g transform="translate(26, 386)">
+        <circle cx="6" cy="0" r="3.5" fill="#10b981"/>
+        <text x="16" y="4" font-size="11" fill="#64748b">Services: online</text>
+        <text x="170" y="4" font-size="11" fill="#64748b">Memory: optimal</text>
+        <text x="350" y="4" font-size="11" fill="#38bdf8" font-weight="600">Ready to build &gt;</text>
+      </g>
+    </g>
+  </g>
+</svg>
