@@ -18,49 +18,8 @@
         from { transform: translate(0, 0); }
         to { transform: translate(-35px, 30px); }
       }
-      @keyframes roleCycle {
-        0%, 22% { opacity: 1; transform: translateY(0); }
-        25%, 97% { opacity: 0; transform: translateY(-16px); }
-        100% { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes role2Cycle {
-        0%, 24% { opacity: 0; transform: translateY(16px); }
-        27%, 47% { opacity: 1; transform: translateY(0); }
-        50%, 100% { opacity: 0; transform: translateY(-16px); }
-      }
-      @keyframes role3Cycle {
-        0%, 49% { opacity: 0; transform: translateY(16px); }
-        52%, 72% { opacity: 1; transform: translateY(0); }
-        75%, 100% { opacity: 0; transform: translateY(-16px); }
-      }
-      @keyframes role4Cycle {
-        0%, 74% { opacity: 0; transform: translateY(16px); }
-        77%, 97% { opacity: 1; transform: translateY(0); }
-        100% { opacity: 0; transform: translateY(-16px); }
-      }
-      @keyframes hudRotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      @keyframes hudCounterRotate {
-        0% { transform: rotate(360deg); }
-        100% { transform: rotate(0deg); }
-      }
-      @keyframes hudScan {
-        0% { transform: translateY(-130px); opacity: 0; }
-        50% { opacity: 0.7; }
-        100% { transform: translateY(130px); opacity: 0; }
-      }
-      .fu { animation: fadeIn 0.8s ease-out both; }
-      .blob1 { animation: drift1 14s ease-in-out infinite alternate; }
-      .blob2 { animation: drift2 16s ease-in-out infinite alternate; }
-      .rot { transform-origin: 1045px 255px; animation: hudRotate 22s linear infinite; }
-      .crot { transform-origin: 1045px 255px; animation: hudCounterRotate 28s linear infinite; }
-      .scan { animation: hudScan 4.5s ease-in-out infinite; }
-      .role1 { animation: roleCycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
-      .role2 { animation: role2Cycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
-      .role3 { animation: role3Cycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
-      .role4 { animation: role4Cycle 12s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+      .role1 { opacity: 1; }
+      .role2, .role3, .role4 { opacity: 0; }
       text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
       .display-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 800; }
       .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
@@ -140,7 +99,7 @@
     <!-- ==================== LEFT COLUMN: INTRODUCTION & IDENTITY ==================== -->
     <g transform="translate(60, 0)">
       <!-- Status Badge -->
-      <g class="fu" style="animation-delay: 0.1s;">
+      <g>
         <rect x="0" y="52" width="204" height="32" rx="16" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.35"/>
         <circle cx="16" cy="68" r="4" fill="#10b981"/>
         <circle cx="16" cy="68" r="4" fill="none" stroke="#10b981" stroke-width="1.5">
@@ -151,26 +110,44 @@
       </g>
 
       <!-- Welcome Label -->
-      <text class="fu sans-font" x="2" y="136" font-size="24" font-weight="500" fill="#94a3b8" style="animation-delay: 0.25s;">
+      <text class="sans-font" x="2" y="136" font-size="24" font-weight="500" fill="#94a3b8">
         Hi there, I'm
       </text>
 
       <!-- Full Name Header -->
-      <text class="fu display-name" x="0" y="214" font-size="70" letter-spacing="-1.5" fill="url(#nameGradient)" filter="url(#glowFilter)" style="animation-delay: 0.4s;">
+      <text class="display-name" x="0" y="214" font-size="70" letter-spacing="-1.5" fill="url(#nameGradient)" filter="url(#glowFilter)">
         Karan Kumar
       </text>
 
       <!-- Cycling Roles Section -->
       <g transform="translate(2, 268)">
-        <text class="fu" x="0" y="0" font-size="22" font-weight="700" fill="#38bdf8" style="animation-delay: 0.55s;">&gt;</text>
-        <text class="role1" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">Full-Stack Developer</text>
-        <text class="role2" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">AI/ML Student</text>
-        <text class="role3" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">Java DSA / Problem Solver</text>
-        <text class="role4" x="26" y="0" font-size="22" font-weight="600" fill="#f1f5f9">Problem Solver</text>
+        <text x="0" y="0" font-size="22" font-weight="700" fill="#38bdf8">&gt;</text>
+        <g transform="translate(26, 0)">
+          <!-- Role 1: Full-Stack Developer -->
+          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="1">
+            Full-Stack Developer
+            <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.97;0.98;0.99;0.995;0.999;1" dur="12s" repeatCount="indefinite"/>
+          </text>
+          <!-- Role 2: AI/ML Student -->
+          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="0">
+            AI/ML Student
+            <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.24;0.27;0.47;0.50;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
+          </text>
+          <!-- Role 3: Java DSA / Problem Solver -->
+          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="0">
+            Java DSA &amp; Problem Solver
+            <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.49;0.52;0.72;0.75;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
+          </text>
+          <!-- Role 4: Problem Solver -->
+          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="0">
+            Problem Solver
+            <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.74;0.77;0.97;0.99;0.992;0.995;0.998;1" dur="12s" repeatCount="indefinite"/>
+          </text>
+        </g>
       </g>
 
       <!-- Bio / Description -->
-      <g class="fu sans-font" style="animation-delay: 0.7s;">
+      <g class="sans-font">
         <text x="2" y="316" font-size="15.5" fill="#cbd5e1" font-weight="400">
           B.Tech CSE (AI/ML) student focused on building real-world applications with Node.js and Python.
         </text>
@@ -180,7 +157,7 @@
       </g>
 
       <!-- Meta Pill Row -->
-      <g class="fu" style="animation-delay: 0.85s;" transform="translate(0, 412)">
+      <g transform="translate(0, 412)">
         <!-- Location -->
         <g transform="translate(0, 0)">
           <rect x="0" y="0" width="215" height="38" rx="10" fill="#151930" stroke="#262f50" stroke-width="1"/>
