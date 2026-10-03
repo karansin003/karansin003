@@ -1,160 +1,113 @@
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🚀 SECTION 1 — HERO CARD -->
+<!-- 🚀 SECTION 1 — HERO -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="./hero.svg" alt="Hi there, I'm Karan Kumar — Full-Stack Developer &amp; AI/ML Student" width="100%"/>
+<img src="./hero.svg" width="100%" alt="Karan Kumar — Full-Stack Developer &amp; AI/ML Student"/>
 
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🧭 SECTION 2 — DEVELOPER & LIFE OUTSIDE CODE -->
+<!-- 🧭 SECTION 2 — ABOUT / DEVELOPER + LIFE OUTSIDE CODE -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="./about.svg" alt="Building useful software &amp; Beyond the terminal — Karan Kumar" width="100%"/>
+<img src="./about.svg" width="100%" alt="About Karan Kumar — Developer Profile &amp; Life Outside Code"/>
 
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- ⚡ SECTION 3 — TECH STACK ORBIT -->
+<!-- ⚡ SECTION 3 — TECHNOLOGIES & LIBRARIES -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <img src="./stack.svg" width="100%" alt="Technologies and Libraries"/>
 
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🪪 SECTION 4 — DEVELOPER ID & DASHBOARD -->
+<!-- 🪪 SECTION 4 — ENGINEERING ACTIVITY / GITHUB DASHBOARD -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="./dashboard.svg" alt="Developer ID &amp; Telemetry Dashboard — Karan Kumar" width="100%"/>
+<img src="./dashboard.svg" width="100%" alt="GitHub Developer Dashboard — Karan Kumar"/>
 
 <br/><br/>
 
-<!-- LIVE GITHUB ACTIVITY -->
-<p>
+<!-- LIVE GITHUB ACTIVITY METRICS -->
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=karansin003&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0e16&title_color=38bdf8&icon_color=818cf8&text_color=94a3b8" alt="Karan's GitHub Stats" height="175"/>
   &nbsp;
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karansin003&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0e16&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="175"/>
 </p>
 
-<p>
+<p align="center">
   <img src="https://streak-stats.demolab.com/?user=karansin003&theme=tokyonight&hide_border=true&background=0d0e16&ring=38bdf8&fire=f59e0b&currStreakLabel=818cf8" alt="GitHub Streak" height="175"/>
 </p>
 
-<p>
+<p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=karansin003&theme=tokyonight&no-bg=true&no-frame=true&margin-w=10" alt="GitHub Trophies" width="90%"/>
 </p>
 
-<br/>
-
-</div>
+<br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🛠️ SECTION 5 — FEATURED PROJECTS (2x2 CARD GRID) -->
+<!-- 🛠️ SECTION 5 — FEATURED PROJECTS -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-## 🛠️ Featured Engineering Projects
-
-A curated selection of full-stack platforms, automated utilities, and production applications:
-
-<table width="100%" border="0" cellspacing="12" cellpadding="16">
-  <tr>
-    <!-- PROJECT 1: QAttend -->
-    <td width="50%" valign="top" style="background:#11152a; border:1px solid #252f52; border-radius:16px; padding:22px;">
-      <h3 style="margin-top:0; color:#38bdf8; font-size:18px;">⚡ QAttend</h3>
-      <p style="color:#94a3b8; font-size:13.5px; line-height:1.6;">
-        Full-stack student utility for attendance and assignment monitoring with QUMS integration, automated tracking, scheduled notifications, multi-user accounts and Telegram alerts.
-      </p>
-      <p>
-        <code>Node.js</code> <code>Express.js</code> <code>PostgreSQL</code> <code>Supabase</code> <code>Firebase Auth</code> <code>Playwright</code> <code>Telegram Bot API</code> <code>Render</code>
-      </p>
-      <div style="margin-top:16px;">
-        <a href="https://github.com/karansin003/qattend" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="QAttend GitHub"/>
-        </a>
-        &nbsp;
-        <a href="https://qattend.onrender.com/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/Live-Demo-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="QAttend Live Demo"/>
-        </a>
-      </div>
-    </td>
-
-    <!-- PROJECT 2: Ranju Art Gallery -->
-    <td width="50%" valign="top" style="background:#11152a; border:1px solid #252f52; border-radius:16px; padding:22px;">
-      <h3 style="margin-top:0; color:#818cf8; font-size:18px;">🎨 Ranju Art Gallery</h3>
-      <p style="color:#94a3b8; font-size:13.5px; line-height:1.6;">
-        Full-stack art gallery and e-commerce platform with artwork management, secure checkout, reviews, commission requests, video showcase and admin dashboard.
-      </p>
-      <p>
-        <code>React 18</code> <code>Vite</code> <code>React Router</code> <code>Tailwind CSS</code> <code>Node.js</code> <code>Express.js</code> <code>PostgreSQL</code> <code>Supabase</code> <code>JWT</code> <code>bcrypt</code> <code>Multer</code>
-      </p>
-      <div style="margin-top:16px;">
-        <a href="https://github.com/karansin003/ranju-art-gallery" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ranju Art Gallery GitHub"/>
-        </a>
-        &nbsp;
-        <a href="https://ranjuart.onrender.com/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/Live-Demo-818CF8?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Ranju Art Gallery Live Demo"/>
-        </a>
-      </div>
-    </td>
-  </tr>
-
-  <tr>
-    <!-- PROJECT 3: QAttend Portal -->
-    <td width="50%" valign="top" style="background:#11152a; border:1px solid #252f52; border-radius:16px; padding:22px;">
-      <h3 style="margin-top:0; color:#34d399; font-size:18px;">📚 QAttend Portal</h3>
-      <p style="color:#94a3b8; font-size:13.5px; line-height:1.6;">
-        Student-focused attendance and academic portal for accessing attendance-related information and academic utilities with admin and CR access controls.
-      </p>
-      <p>
-        <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>Firebase Auth</code> <code>Cloud Firestore</code> <code>Firebase Hosting</code> <code>PWA</code>
-      </p>
-      <div style="margin-top:16px;">
-        <a href="https://github.com/karansin003/QAttend-Portal" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="QAttend Portal GitHub"/>
-        </a>
-        &nbsp;
-        <a href="https://qattend-portal.web.app/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/Live-Demo-34D399?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="QAttend Portal Live Demo"/>
-        </a>
-      </div>
-    </td>
-
-    <!-- PROJECT 4: Winter Arc 2026 -->
-    <td width="50%" valign="top" style="background:#11152a; border:1px solid #252f52; border-radius:16px; padding:22px;">
-      <h3 style="margin-top:0; color:#f59e0b; font-size:18px;">❄️ Winter Arc 2026</h3>
-      <p style="color:#94a3b8; font-size:13.5px; line-height:1.6;">
-        Firebase-powered productivity application for the Winter Arc 2026 challenge with authentication, Firestore persistence and user-specific progress tracking.
-      </p>
-      <p>
-        <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Firebase Auth</code> <code>Cloud Firestore</code> <code>Firebase Browser SDK</code> <code>Firebase Hosting</code>
-      </p>
-      <div style="margin-top:16px;">
-        <a href="https://github.com/karansin003/winter-arc" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Winter Arc 2026 GitHub"/>
-        </a>
-        &nbsp;
-        <a href="https://arc-challenge.web.app/" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.shields.io/badge/Live-Demo-F59E0B?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Winter Arc Live Demo"/>
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
+<img src="./projects.svg" width="100%" alt="Featured Projects — Karan Kumar"/>
 
 <br/>
 
-<div align="center">
+<!-- QUICK ACCESS PROJECT LINKS -->
+<p align="center">
+  <a href="https://github.com/karansin003/qattend" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/QAttend-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="QAttend GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://qattend.onrender.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/QAttend-Live_Demo-38BDF8?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="QAttend Demo"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/karansin003/ranju-art-gallery" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Ranju_Art-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Ranju Art GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://ranjuart.onrender.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Ranju_Art-Live_Demo-818CF8?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Ranju Art Demo"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/karansin003/QAttend-Portal" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/QAttend_Portal-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Portal GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://qattend-portal.web.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/QAttend_Portal-Live_Demo-34D399?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Portal Demo"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/karansin003/winter-arc" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Winter_Arc-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Winter Arc GitHub"/>
+  </a>
+  &nbsp;
+  <a href="https://arc-challenge.web.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Winter_Arc-Live_Demo-F59E0B?style=for-the-badge&logo=google-chrome&logoColor=0d0e16" alt="Winter Arc Demo"/>
+  </a>
+</p>
+
+<br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- 🏙️ SECTION 6 — 3D CONTRIBUTION CITY & SNAKE -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<h2>🏙️ 3D Contribution City</h2>
-<p><i>Every commit builds another tower — automatically generated via GitHub Actions</i></p>
+<p align="center">
+  <span style="font-family: monospace; color: #38bdf8; font-weight: 700; font-size: 13px; letter-spacing: 2.5px;">// CONTRIBUTION ACTIVITY</span><br/>
+  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #f8fafc; font-weight: 700; font-size: 26px;">3D Contribution City</span><br/>
+  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #94a3b8; font-size: 14px;"><i>Every commit builds another tower — automatically rendered daily via GitHub Actions</i></span>
+</p>
 
 <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Contribution City" width="100%"/>
 
 <br/><br/>
 
-<h3>🐍 Contribution Snake</h3>
+<p align="center">
+  <span style="font-family: monospace; color: #34d399; font-weight: 700; font-size: 12px; letter-spacing: 2px;">// COMMIT GRAPH DYNAMICS</span><br/>
+  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #f8fafc; font-weight: 700; font-size: 20px;">🐍 Contribution Snake</span>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/karansin003/karansin003/output/github-snake-dark.svg"/>
@@ -167,11 +120,11 @@ A curated selection of full-stack platforms, automated utilities, and production
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- 🌐 SECTION 7 — LET'S CONNECT -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="./connect.svg" alt="Let's build something together — Karan Kumar" width="100%"/>
+<img src="./connect.svg" width="100%" alt="Let's Connect — Karan Kumar"/>
 
-<br/><br/>
+<br/>
 
-<p>
+<p align="center">
   <a href="https://github.com/karansin003" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
@@ -199,16 +152,14 @@ A curated selection of full-stack platforms, automated utilities, and production
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 👁️ PROFILE VIEWS COUNTER -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- PROFILE VIEWS COUNTER -->
 <img src="https://komarev.com/ghpvc/?username=karansin003&color=38bdf8&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
 <br/><br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 🏷️ FOOTER -->
+<!-- 🏷️ SECTION 8 — FOOTER -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="./footer.svg" alt="Footer — Code. Learn. Build. Repeat." width="100%"/>
+<img src="./footer.svg" width="100%" alt="Footer — Code. Learn. Build. Repeat."/>
 
 </div>

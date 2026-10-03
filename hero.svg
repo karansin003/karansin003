@@ -218,11 +218,13 @@
       <circle cx="170" cy="210" r="170" fill="url(#portraitGlow)"/>
 
       <!-- Rotating Outer HUD Targeting Rings -->
-      <g class="rot">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 170 210" to="360 170 210" dur="22s" repeatCount="indefinite"/>
         <circle cx="170" cy="210" r="150" fill="none" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="14 8 4 8"/>
         <circle cx="170" cy="210" r="162" fill="none" stroke="#818cf8" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 14"/>
       </g>
-      <g class="crot">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360 170 210" to="0 170 210" dur="28s" repeatCount="indefinite"/>
         <circle cx="170" cy="210" r="138" fill="none" stroke="#c084fc" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="24 12"/>
       </g>
 

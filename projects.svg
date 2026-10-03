@@ -1,0 +1,329 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Featured Engineering Projects — Karan Kumar">
+  <title>Featured Engineering Projects — Karan Kumar</title>
+  <defs>
+    <style>
+      @keyframes cardGlowPulse {
+        0%, 100% { stroke-opacity: 0.45; }
+        50% { stroke-opacity: 0.85; }
+      }
+      @keyframes floatIcon {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
+      }
+      .glow-border { animation: cardGlowPulse 4s ease-in-out infinite; }
+      .icon-float { animation: floatIcon 3s ease-in-out infinite; }
+      text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
+      .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .bold-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; }
+    </style>
+
+    <linearGradient id="projCanvasBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1022"/>
+      <stop offset="60%" stop-color="#080b18"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+
+    <linearGradient id="projCardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121730" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#0a0d1c" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="projOuterGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d2645" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d2645" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d2645" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1d2645" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <pattern id="matrixDots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.85" fill="#ffffff" fill-opacity="0.04"/>
+    </pattern>
+
+    <clipPath id="projClip">
+      <rect width="1280" height="640" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#projClip)">
+    <!-- Base Canvas -->
+    <rect width="1280" height="640" fill="url(#projCanvasBg)"/>
+    <rect width="1280" height="640" fill="url(#matrixDots)"/>
+
+    <!-- Ambient Glow Orbs -->
+    <circle cx="200" cy="160" r="180" fill="#38bdf8" fill-opacity="0.08" filter="blur(60px)"/>
+    <circle cx="1100" cy="500" r="220" fill="#818cf8" fill-opacity="0.08" filter="blur(70px)"/>
+
+    <!-- Outer Frame Border -->
+    <rect x="0.75" y="0.75" width="1278.5" height="638.5" rx="23.25" fill="none" stroke="url(#projOuterGlow)" stroke-width="1.5" class="glow-border"/>
+
+    <!-- Technical HUD Corner Accents -->
+    <g stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.6">
+      <path d="M24 44 V 24 H 44"/>
+      <path d="M1256 44 V 24 H 1236"/>
+      <path d="M24 596 V 616 H 44"/>
+      <path d="M1256 596 V 616 H 1236"/>
+    </g>
+
+    <!-- ==================== HEADER ==================== -->
+    <g transform="translate(50, 48)">
+      <text x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2.5">// FEATURED PROJECTS</text>
+      <text class="bold-title" x="0" y="32" font-size="28" fill="#f8fafc">Production Platforms &amp; Applications</text>
+      <text class="sans-font" x="0" y="58" font-size="14" fill="#94a3b8">Curated full-stack platforms, automated utilities, and production systems built by Karan Kumar.</text>
+    </g>
+
+    <!-- Header Right Status Badge -->
+    <g transform="translate(1230, 68)" text-anchor="end">
+      <rect x="-160" y="-22" width="160" height="34" rx="10" fill="#13172e" stroke="#252f52" stroke-width="1.2"/>
+      <circle cx="-140" cy="-5" r="4" fill="#10b981"/>
+      <text x="-126" y="-1" font-size="10.5" fill="#34d399" font-weight="700" letter-spacing="1.5" text-anchor="start">4 ACTIVE BUILDS</text>
+    </g>
+
+    <!-- ==================== 2x2 PROJECT GRID ==================== -->
+    <!-- ROW 1, COL 1: QAttend -->
+    <g transform="translate(50, 130)">
+      <rect x="0" y="0" width="578" height="232" rx="18" fill="url(#projCardBg)" stroke="url(#cardBorder1)" stroke-width="1.4"/>
+      
+      <!-- Top Meta Strip -->
+      <g transform="translate(24, 22)">
+        <rect x="0" y="0" width="230" height="22" rx="6" fill="#38bdf8" fill-opacity="0.12"/>
+        <text x="12" y="15" font-size="9.5" fill="#38bdf8" font-weight="700" letter-spacing="1.5">AUTOMATED MONITORING SYSTEM</text>
+      </g>
+
+      <!-- Title & Icon -->
+      <g transform="translate(24, 68)">
+        <text class="bold-title" x="0" y="0" font-size="22" fill="#f8fafc">⚡ QAttend</text>
+      </g>
+
+      <!-- Description -->
+      <text class="sans-font" x="24" y="96" font-size="13" fill="#94a3b8">
+        Full-stack student utility for attendance and assignment tracking with
+      </text>
+      <text class="sans-font" x="24" y="116" font-size="13" fill="#94a3b8">
+        QUMS integration, scheduled notifications and Telegram Bot API alerts.
+      </text>
+
+      <!-- Tech Stack Tags -->
+      <g transform="translate(24, 138)">
+        <!-- Node.js -->
+        <rect x="0" y="0" width="66" height="26" rx="6" fill="#171d38" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="33" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Node.js</text>
+        <!-- Express -->
+        <rect x="74" y="0" width="70" height="26" rx="6" fill="#171d38" stroke="#94a3b8" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="109" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Express</text>
+        <!-- PostgreSQL -->
+        <rect x="152" y="0" width="86" height="26" rx="6" fill="#171d38" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="195" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">PostgreSQL</text>
+        <!-- Supabase -->
+        <rect x="246" y="0" width="76" height="26" rx="6" fill="#171d38" stroke="#10b981" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="284" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Supabase</text>
+        <!-- Playwright -->
+        <rect x="330" y="0" width="84" height="26" rx="6" fill="#171d38" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="372" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Playwright</text>
+        <!-- Telegram -->
+        <rect x="422" y="0" width="94" height="26" rx="6" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="469" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Telegram API</text>
+      </g>
+
+      <!-- Action Buttons Row -->
+      <g transform="translate(24, 180)">
+        <rect x="0" y="0" width="130" height="34" rx="8" fill="#181717" stroke="#334155" stroke-width="1.2"/>
+        <text x="18" y="21" font-size="14">🐙</text>
+        <text class="bold-title" x="42" y="21" font-size="11.5" fill="#f8fafc">GitHub Repo</text>
+
+        <rect x="142" y="0" width="130" height="34" rx="8" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="160" y="21" font-size="14">🌐</text>
+        <text class="bold-title" x="182" y="21" font-size="11.5" fill="#38bdf8">Live Demo ↗</text>
+      </g>
+    </g>
+
+    <!-- ROW 1, COL 2: Ranju Art Gallery -->
+    <g transform="translate(652, 130)">
+      <rect x="0" y="0" width="578" height="232" rx="18" fill="url(#projCardBg)" stroke="url(#cardBorder2)" stroke-width="1.4"/>
+      
+      <!-- Top Meta Strip -->
+      <g transform="translate(24, 22)">
+        <rect x="0" y="0" width="220" height="22" rx="6" fill="#818cf8" fill-opacity="0.15"/>
+        <text x="12" y="15" font-size="9.5" fill="#818cf8" font-weight="700" letter-spacing="1.5">E-COMMERCE &amp; ART MARKETPLACE</text>
+      </g>
+
+      <!-- Title & Icon -->
+      <g transform="translate(24, 68)">
+        <text class="bold-title" x="0" y="0" font-size="22" fill="#f8fafc">🎨 Ranju Art Gallery</text>
+      </g>
+
+      <!-- Description -->
+      <text class="sans-font" x="24" y="96" font-size="13" fill="#94a3b8">
+        Full-stack art platform with artwork management, secure checkout, reviews,
+      </text>
+      <text class="sans-font" x="24" y="116" font-size="13" fill="#94a3b8">
+        custom commission requests, video showcase and administrative console.
+      </text>
+
+      <!-- Tech Stack Tags -->
+      <g transform="translate(24, 138)">
+        <!-- React 18 -->
+        <rect x="0" y="0" width="72" height="26" rx="6" fill="#171d38" stroke="#06b6d4" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="36" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">React 18</text>
+        <!-- Vite -->
+        <rect x="80" y="0" width="50" height="26" rx="6" fill="#171d38" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="105" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Vite</text>
+        <!-- Tailwind -->
+        <rect x="138" y="0" width="70" height="26" rx="6" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="173" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Tailwind</text>
+        <!-- Node.js -->
+        <rect x="216" y="0" width="66" height="26" rx="6" fill="#171d38" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="249" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Node.js</text>
+        <!-- PostgreSQL -->
+        <rect x="290" y="0" width="86" height="26" rx="6" fill="#171d38" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="333" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">PostgreSQL</text>
+        <!-- JWT / Auth -->
+        <rect x="384" y="0" width="88" height="26" rx="6" fill="#171d38" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="428" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">JWT Auth</text>
+      </g>
+
+      <!-- Action Buttons Row -->
+      <g transform="translate(24, 180)">
+        <rect x="0" y="0" width="130" height="34" rx="8" fill="#181717" stroke="#334155" stroke-width="1.2"/>
+        <text x="18" y="21" font-size="14">🐙</text>
+        <text class="bold-title" x="42" y="21" font-size="11.5" fill="#f8fafc">GitHub Repo</text>
+
+        <rect x="142" y="0" width="130" height="34" rx="8" fill="#6366f1" fill-opacity="0.2" stroke="#818cf8" stroke-width="1.2"/>
+        <text x="160" y="21" font-size="14">🌐</text>
+        <text class="bold-title" x="182" y="21" font-size="11.5" fill="#818cf8">Live Demo ↗</text>
+      </g>
+    </g>
+
+    <!-- ROW 2, COL 1: QAttend Portal -->
+    <g transform="translate(50, 382)">
+      <rect x="0" y="0" width="578" height="232" rx="18" fill="url(#projCardBg)" stroke="url(#cardBorder3)" stroke-width="1.4"/>
+      
+      <!-- Top Meta Strip -->
+      <g transform="translate(24, 22)">
+        <rect x="0" y="0" width="200" height="22" rx="6" fill="#10b981" fill-opacity="0.12"/>
+        <text x="12" y="15" font-size="9.5" fill="#34d399" font-weight="700" letter-spacing="1.5">ACADEMIC PORTAL &amp; PWA</text>
+      </g>
+
+      <!-- Title & Icon -->
+      <g transform="translate(24, 68)">
+        <text class="bold-title" x="0" y="0" font-size="22" fill="#f8fafc">📚 QAttend Portal</text>
+      </g>
+
+      <!-- Description -->
+      <text class="sans-font" x="24" y="96" font-size="13" fill="#94a3b8">
+        Student-focused academic portal for viewing attendance data, CR management,
+      </text>
+      <text class="sans-font" x="24" y="116" font-size="13" fill="#94a3b8">
+        admin role permissions, and offline progressive web application support.
+      </text>
+
+      <!-- Tech Stack Tags -->
+      <g transform="translate(24, 138)">
+        <!-- HTML5 -->
+        <rect x="0" y="0" width="60" height="26" rx="6" fill="#171d38" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="30" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">HTML5</text>
+        <!-- CSS3 -->
+        <rect x="68" y="0" width="54" height="26" rx="6" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="95" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">CSS3</text>
+        <!-- JavaScript -->
+        <rect x="130" y="0" width="90" height="26" rx="6" fill="#171d38" stroke="#eab308" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="175" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">JavaScript</text>
+        <!-- Firebase Auth -->
+        <rect x="228" y="0" width="102" height="26" rx="6" fill="#171d38" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="279" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Firebase Auth</text>
+        <!-- Firestore -->
+        <rect x="338" y="0" width="76" height="26" rx="6" fill="#171d38" stroke="#f97316" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="376" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Firestore</text>
+        <!-- PWA -->
+        <rect x="422" y="0" width="60" height="26" rx="6" fill="#171d38" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="452" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">PWA</text>
+      </g>
+
+      <!-- Action Buttons Row -->
+      <g transform="translate(24, 180)">
+        <rect x="0" y="0" width="130" height="34" rx="8" fill="#181717" stroke="#334155" stroke-width="1.2"/>
+        <text x="18" y="21" font-size="14">🐙</text>
+        <text class="bold-title" x="42" y="21" font-size="11.5" fill="#f8fafc">GitHub Repo</text>
+
+        <rect x="142" y="0" width="130" height="34" rx="8" fill="#059669" fill-opacity="0.2" stroke="#34d399" stroke-width="1.2"/>
+        <text x="160" y="21" font-size="14">🌐</text>
+        <text class="bold-title" x="182" y="21" font-size="11.5" fill="#34d399">Live Demo ↗</text>
+      </g>
+    </g>
+
+    <!-- ROW 2, COL 2: Winter Arc 2026 -->
+    <g transform="translate(652, 382)">
+      <rect x="0" y="0" width="578" height="232" rx="18" fill="url(#projCardBg)" stroke="url(#cardBorder4)" stroke-width="1.4"/>
+      
+      <!-- Top Meta Strip -->
+      <g transform="translate(24, 22)">
+        <rect x="0" y="0" width="225" height="22" rx="6" fill="#f59e0b" fill-opacity="0.15"/>
+        <text x="12" y="15" font-size="9.5" fill="#f59e0b" font-weight="700" letter-spacing="1.5">PRODUCTIVITY &amp; HABIT SYSTEM</text>
+      </g>
+
+      <!-- Title & Icon -->
+      <g transform="translate(24, 68)">
+        <text class="bold-title" x="0" y="0" font-size="22" fill="#f8fafc">❄️ Winter Arc 2026</text>
+      </g>
+
+      <!-- Description -->
+      <text class="sans-font" x="24" y="96" font-size="13" fill="#94a3b8">
+        Productivity web application for the Winter Arc challenge with personal
+      </text>
+      <text class="sans-font" x="24" y="116" font-size="13" fill="#94a3b8">
+        user authentication, habit persistence, and real-time goal tracking.
+      </text>
+
+      <!-- Tech Stack Tags -->
+      <g transform="translate(24, 138)">
+        <!-- HTML5 -->
+        <rect x="0" y="0" width="60" height="26" rx="6" fill="#171d38" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="30" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">HTML5</text>
+        <!-- CSS3 -->
+        <rect x="68" y="0" width="54" height="26" rx="6" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="95" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">CSS3</text>
+        <!-- JavaScript -->
+        <rect x="130" y="0" width="90" height="26" rx="6" fill="#171d38" stroke="#eab308" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="175" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">JavaScript</text>
+        <!-- Firebase Auth -->
+        <rect x="228" y="0" width="102" height="26" rx="6" fill="#171d38" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="279" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Firebase Auth</text>
+        <!-- Firestore -->
+        <rect x="338" y="0" width="76" height="26" rx="6" fill="#171d38" stroke="#f97316" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="376" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Firestore</text>
+        <!-- Hosting -->
+        <rect x="422" y="0" width="74" height="26" rx="6" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+        <text class="sans-font" x="459" y="17" font-size="11" fill="#f1f5f9" font-weight="600" text-anchor="middle">Hosting</text>
+      </g>
+
+      <!-- Action Buttons Row -->
+      <g transform="translate(24, 180)">
+        <rect x="0" y="0" width="130" height="34" rx="8" fill="#181717" stroke="#334155" stroke-width="1.2"/>
+        <text x="18" y="21" font-size="14">🐙</text>
+        <text class="bold-title" x="42" y="21" font-size="11.5" fill="#f8fafc">GitHub Repo</text>
+
+        <rect x="142" y="0" width="130" height="34" rx="8" fill="#d97706" fill-opacity="0.2" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="160" y="21" font-size="14">🌐</text>
+        <text class="bold-title" x="182" y="21" font-size="11.5" fill="#f59e0b">Live Demo ↗</text>
+      </g>
+    </g>
+  </g>
+</svg>
