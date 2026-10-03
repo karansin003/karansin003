@@ -4,7 +4,7 @@
     <style>
       @keyframes corePulse {
         0%, 100% { transform: scale(1); opacity: 0.95; }
-        50% { transform: scale(1.06); opacity: 1; filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.8)); }
+        50% { transform: scale(1.06); opacity: 1; filter: drop-shadow(0 0 16px rgba(227, 165, 61, 0.8)); }
       }
       @keyframes statusPulse {
         0%, 100% { opacity: 1; r: 4.5px; }
@@ -72,14 +72,14 @@
       <stop offset="100%" stop-color="#0b0d12" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="cyanPill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.08"/>
+    <linearGradient id="amberPill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e3a53d" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0.08"/>
     </linearGradient>
 
-    <linearGradient id="purplePill" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.08"/>
+    <linearGradient id="slatePill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3d5a63" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#14171f" stop-opacity="0.12"/>
     </linearGradient>
 
     <!-- Background Matrix Dots -->
@@ -145,20 +145,20 @@
       <g transform="translate(255, 290)">
         <!-- Floating Ambient Background Particles -->
         <g opacity="0.6">
-          <circle class="part1" cx="-150" cy="-140" r="1.8" fill="#38bdf8"/>
-          <circle class="part2" cx="160" cy="-110" r="2" fill="#818cf8"/>
-          <circle class="part1" cx="-130" cy="170" r="1.5" fill="#34d399"/>
+          <circle class="part1" cx="-150" cy="-140" r="1.8" fill="#e3a53d"/>
+          <circle class="part2" cx="160" cy="-110" r="2" fill="#3d5a63"/>
+          <circle class="part1" cx="-130" cy="170" r="1.5" fill="#10b981"/>
           <circle class="part2" cx="140" cy="150" r="2.2" fill="#f59e0b"/>
         </g>
 
         <!-- Orbital Ring 1 (Inner, r=105) -->
-        <circle r="105" fill="none" stroke="#38bdf8" stroke-opacity="0.32" stroke-width="1.5" stroke-dasharray="6 6"/>
+        <circle r="105" fill="none" stroke="#e3a53d" stroke-opacity="0.32" stroke-width="1.5" stroke-dasharray="6 6"/>
 
         <!-- Orbital Ring 2 (Middle, r=160) -->
-        <circle r="160" fill="none" stroke="#818cf8" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="8 8"/>
+        <circle r="160" fill="none" stroke="#3d5a63" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="8 8"/>
 
         <!-- Orbital Ring 3 (Outer, r=215) -->
-        <circle r="215" fill="none" stroke="#38bdf8" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="4 8"/>
+        <circle r="215" fill="none" stroke="#e3a53d" stroke-opacity="0.22" stroke-width="1.5" stroke-dasharray="4 8"/>
 
         <!-- Rotating Orbit 1: Inner Track Nodes (Clockwise 28s) -->
         <g>
@@ -166,29 +166,29 @@
           
           <!-- Node: JavaScript (105, 0) -->
           <g transform="translate(105, 0)">
-            <circle r="21" fill="#11162e" stroke="#eab308" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(234, 179, 8, 0.4))"/>
+            <circle r="21" fill="#14171f" stroke="#eab308" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(234, 179, 8, 0.4))"/>
             <rect x="-10" y="-10" width="20" height="20" rx="3" fill="#eab308" fill-opacity="0.2"/>
             <text class="bold-title" x="0" y="4.5" font-size="11" fill="#eab308" text-anchor="middle">JS</text>
           </g>
 
           <!-- Node: Python (-105, 0) -->
           <g transform="translate(-105, 0)">
-            <circle r="21" fill="#11162e" stroke="#38bdf8" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(56, 189, 248, 0.4))"/>
-            <text class="bold-title" x="0" y="4.5" font-size="10.5" fill="#38bdf8" text-anchor="middle">PY</text>
+            <circle r="21" fill="#14171f" stroke="#e3a53d" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(227, 165, 61, 0.4))"/>
+            <text class="bold-title" x="0" y="4.5" font-size="10.5" fill="#e3a53d" text-anchor="middle">PY</text>
           </g>
 
           <!-- Node: React (0, 105) -->
           <g transform="translate(0, 105)">
-            <circle r="21" fill="#11162e" stroke="#06b6d4" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(6, 182, 212, 0.4))"/>
-            <ellipse rx="9" ry="3.5" fill="none" stroke="#06b6d4" stroke-width="1.2" transform="rotate(30)"/>
-            <ellipse rx="9" ry="3.5" fill="none" stroke="#06b6d4" stroke-width="1.2" transform="rotate(90)"/>
-            <ellipse rx="9" ry="3.5" fill="none" stroke="#06b6d4" stroke-width="1.2" transform="rotate(150)"/>
-            <circle r="1.8" fill="#06b6d4"/>
+            <circle r="21" fill="#14171f" stroke="#3d5a63" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(61, 90, 99, 0.5))"/>
+            <ellipse rx="9" ry="3.5" fill="none" stroke="#3d5a63" stroke-width="1.2" transform="rotate(30)"/>
+            <ellipse rx="9" ry="3.5" fill="none" stroke="#3d5a63" stroke-width="1.2" transform="rotate(90)"/>
+            <ellipse rx="9" ry="3.5" fill="none" stroke="#3d5a63" stroke-width="1.2" transform="rotate(150)"/>
+            <circle r="1.8" fill="#3d5a63"/>
           </g>
 
           <!-- Node: Java (DSA) (0, -105) -->
           <g transform="translate(0, -105)">
-            <circle r="21" fill="#11162e" stroke="#f59e0b" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(245, 158, 11, 0.4))"/>
+            <circle r="21" fill="#14171f" stroke="#f59e0b" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(245, 158, 11, 0.4))"/>
             <text class="bold-title" x="0" y="4.5" font-size="10" fill="#f59e0b" text-anchor="middle">DSA</text>
           </g>
         </g>
@@ -199,20 +199,20 @@
           
           <!-- Node: Node.js (113, 113) -->
           <g transform="translate(113, 113)">
-            <circle r="22" fill="#11162e" stroke="#22c55e" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(34, 197, 94, 0.4))"/>
+            <circle r="22" fill="#14171f" stroke="#22c55e" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(34, 197, 94, 0.4))"/>
             <path d="M-7 -4 L0 -8 L7 -4 L7 4 L0 8 L-7 4 Z" fill="none" stroke="#22c55e" stroke-width="1.4"/>
             <text class="bold-title" x="0" y="3" font-size="8" fill="#22c55e" text-anchor="middle">NODE</text>
           </g>
 
           <!-- Node: PostgreSQL (-113, -113) -->
           <g transform="translate(-113, -113)">
-            <circle r="22" fill="#11162e" stroke="#3b82f6" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(59, 130, 246, 0.4))"/>
-            <text class="bold-title" x="0" y="4" font-size="9" fill="#3b82f6" text-anchor="middle">PG</text>
+            <circle r="22" fill="#14171f" stroke="#3d5a63" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(61, 90, 99, 0.5))"/>
+            <text class="bold-title" x="0" y="4" font-size="9" fill="#3d5a63" text-anchor="middle">PG</text>
           </g>
 
           <!-- Node: Git (-113, 113) -->
           <g transform="translate(-113, 113)">
-            <circle r="22" fill="#11162e" stroke="#f43f5e" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(244, 63, 94, 0.4))"/>
+            <circle r="22" fill="#14171f" stroke="#f43f5e" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(244, 63, 94, 0.4))"/>
             <circle cx="-4" cy="4" r="2.5" fill="#f43f5e"/>
             <circle cx="4" cy="-4" r="2.5" fill="#f43f5e"/>
             <line x1="-4" y1="4" x2="4" y2="-4" stroke="#f43f5e" stroke-width="1.5"/>
@@ -220,7 +220,7 @@
 
           <!-- Node: MongoDB (113, -113) -->
           <g transform="translate(113, -113)">
-            <circle r="22" fill="#11162e" stroke="#10b981" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(16, 185, 129, 0.4))"/>
+            <circle r="22" fill="#14171f" stroke="#10b981" stroke-width="1.8" filter="drop-shadow(0 0 6px rgba(16, 185, 129, 0.4))"/>
             <text class="bold-title" x="0" y="4" font-size="9" fill="#10b981" text-anchor="middle">MGO</text>
           </g>
         </g>
@@ -231,25 +231,25 @@
           
           <!-- Node: C++ (215, 0) -->
           <g transform="translate(215, 0)">
-            <circle r="21" fill="#11162e" stroke="#38bdf8" stroke-width="1.8"/>
-            <text class="bold-title" x="0" y="4" font-size="9.5" fill="#38bdf8" text-anchor="middle">C++</text>
+            <circle r="21" fill="#14171f" stroke="#e3a53d" stroke-width="1.8"/>
+            <text class="bold-title" x="0" y="4" font-size="9.5" fill="#e3a53d" text-anchor="middle">C++</text>
           </g>
 
           <!-- Node: C (-215, 0) -->
           <g transform="translate(-215, 0)">
-            <circle r="21" fill="#11162e" stroke="#38bdf8" stroke-width="1.8"/>
-            <text class="bold-title" x="0" y="4" font-size="11" fill="#38bdf8" text-anchor="middle">C</text>
+            <circle r="21" fill="#14171f" stroke="#3d5a63" stroke-width="1.8"/>
+            <text class="bold-title" x="0" y="4" font-size="11" fill="#3d5a63" text-anchor="middle">C</text>
           </g>
 
           <!-- Node: VS Code (0, 215) -->
           <g transform="translate(0, 215)">
-            <circle r="21" fill="#11162e" stroke="#0284c7" stroke-width="1.8"/>
-            <text class="bold-title" x="0" y="4" font-size="8.5" fill="#38bdf8" text-anchor="middle">VSC</text>
+            <circle r="21" fill="#14171f" stroke="#e3a53d" stroke-width="1.8"/>
+            <text class="bold-title" x="0" y="4" font-size="8.5" fill="#e3a53d" text-anchor="middle">VSC</text>
           </g>
 
           <!-- Node: GitHub (0, -215) -->
           <g transform="translate(0, -215)">
-            <circle r="21" fill="#11162e" stroke="#cbd5e1" stroke-width="1.8"/>
+            <circle r="21" fill="#14171f" stroke="#cbd5e1" stroke-width="1.8"/>
             <path d="M-5 2 C-5 -4 5 -4 5 2" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>
             <circle cx="-2.5" cy="-1" r="1" fill="#cbd5e1"/>
             <circle cx="2.5" cy="-1" r="1" fill="#cbd5e1"/>
@@ -258,9 +258,9 @@
 
         <!-- Central Glowing CODE Core -->
         <g class="core-glow">
-          <circle r="52" fill="#0284c7" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 4"/>
-          <circle r="42" fill="#131938" stroke="url(#coreGradient)" stroke-width="2.5" filter="url(#neonGlow)"/>
-          <text class="bold-title" x="0" y="7" font-size="18" fill="#f8fafc" text-anchor="middle" letter-spacing="1">&lt; / &gt;</text>
+          <circle r="52" fill="#e3a53d" fill-opacity="0.12" stroke="#e3a53d" stroke-width="1.5" stroke-dasharray="6 4"/>
+          <circle r="42" fill="#14171f" stroke="url(#coreGradient)" stroke-width="2.5" filter="url(#neonGlow)"/>
+          <text class="bold-title" x="0" y="7" font-size="18" fill="#e9e7e1" text-anchor="middle" letter-spacing="1">&lt; / &gt;</text>
         </g>
       </g>
 
@@ -280,37 +280,37 @@
         <!-- Title & Status Indicator -->
         <g transform="translate(22, 24)">
           <circle cx="0" cy="0" r="4.5" fill="#10b981" class="p-dot"/>
-          <text x="14" y="4" font-size="11.5" fill="#38bdf8" font-weight="700" letter-spacing="1.5">CURRENTLY LEARNING &amp; SPECIALIZING</text>
+          <text x="14" y="4" font-size="11.5" fill="#e3a53d" font-weight="700" letter-spacing="1.5">CURRENTLY LEARNING &amp; SPECIALIZING</text>
         </g>
 
         <!-- 4 Badges (equal spacing, non-overlapping) -->
         <g transform="translate(22, 40)">
           <!-- Item 1: Java DSA -->
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="160" height="26" rx="7" fill="url(#cyanPill)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="160" height="26" rx="7" fill="url(#amberPill)" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
             <text x="12" y="17" font-size="12">🔥</text>
-            <text class="sans-font" x="30" y="17" font-size="11" fill="#f1f5f9" font-weight="600">Java DSA</text>
+            <text class="sans-font" x="30" y="17" font-size="11" fill="#e9e7e1" font-weight="600">Java DSA</text>
           </g>
 
           <!-- Item 2: Python Backend -->
           <g transform="translate(172, 0)">
-            <rect x="0" y="0" width="202" height="26" rx="7" fill="url(#purplePill)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="202" height="26" rx="7" fill="url(#slatePill)" stroke="#3d5a63" stroke-opacity="0.6" stroke-width="1"/>
             <text x="12" y="17" font-size="12">⚙️</text>
-            <text class="sans-font" x="30" y="17" font-size="11" fill="#f1f5f9" font-weight="600">Python Backend Dev</text>
+            <text class="sans-font" x="30" y="17" font-size="11" fill="#e9e7e1" font-weight="600">Python Backend Dev</text>
           </g>
 
           <!-- Item 3: AI / ML -->
           <g transform="translate(386, 0)">
-            <rect x="0" y="0" width="165" height="26" rx="7" fill="url(#cyanPill)" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="165" height="26" rx="7" fill="url(#amberPill)" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
             <text x="12" y="17" font-size="12">🧠</text>
-            <text class="sans-font" x="30" y="17" font-size="11" fill="#f1f5f9" font-weight="600">Applied AI / ML</text>
+            <text class="sans-font" x="30" y="17" font-size="11" fill="#e9e7e1" font-weight="600">Applied AI / ML</text>
           </g>
 
           <!-- Item 4: System Design -->
           <g transform="translate(563, 0)">
-            <rect x="0" y="0" width="168" height="26" rx="7" fill="url(#purplePill)" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
+            <rect x="0" y="0" width="168" height="26" rx="7" fill="url(#slatePill)" stroke="#3d5a63" stroke-opacity="0.6" stroke-width="1"/>
             <text x="12" y="17" font-size="12">🏛️</text>
-            <text class="sans-font" x="30" y="17" font-size="11" fill="#f1f5f9" font-weight="600">System Design</text>
+            <text class="sans-font" x="30" y="17" font-size="11" fill="#e9e7e1" font-weight="600">System Design</text>
           </g>
         </g>
       </g>
@@ -321,34 +321,34 @@
       <!-- CARD 1: LANGUAGES -->
       <g transform="translate(0, 90)">
         <rect x="0" y="0" width="374" height="154" rx="16" fill="url(#cardGradBg)" stroke="url(#cardStroke)" stroke-width="1.2"/>
-        <rect x="18" y="16" width="28" height="28" rx="8" fill="#38bdf8" fill-opacity="0.15"/>
+        <rect x="18" y="16" width="28" height="28" rx="8" fill="#e3a53d" fill-opacity="0.15"/>
         <text x="32" y="35" font-size="15" text-anchor="middle">💻</text>
-        <text class="bold-title" x="54" y="34" font-size="14" fill="#f8fafc">LANGUAGES</text>
+        <text class="bold-title" x="54" y="34" font-size="14" fill="#e9e7e1">LANGUAGES</text>
 
         <!-- 2x2 Tech Pills -->
         <!-- Row 1 -->
         <g transform="translate(18, 56)">
           <!-- C -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="16" cy="15" r="3.5" fill="#38bdf8"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">C Language</text>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="16" cy="15" r="3.5" fill="#3d5a63"/>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">C Language</text>
 
           <!-- C++ -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#38bdf8"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">C++ (STL)</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#e3a53d"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">C++ (STL)</text>
         </g>
         <!-- Row 2 -->
         <g transform="translate(18, 94)">
           <!-- Java -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1"/>
           <circle cx="16" cy="15" r="3.5" fill="#f59e0b"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Java (DSA)</text>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Java (DSA)</text>
 
           <!-- Python -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#38bdf8"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Python</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#e3a53d"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Python</text>
         </g>
         <text class="sans-font" x="18" y="142" font-size="10.5" fill="#64748b">Algorithmic problem solving &amp; core logic</text>
       </g>
@@ -356,34 +356,34 @@
       <!-- CARD 2: FRONTEND -->
       <g transform="translate(396, 90)">
         <rect x="0" y="0" width="374" height="154" rx="16" fill="url(#cardGradBg)" stroke="url(#cardStroke)" stroke-width="1.2"/>
-        <rect x="18" y="16" width="28" height="28" rx="8" fill="#818cf8" fill-opacity="0.15"/>
+        <rect x="18" y="16" width="28" height="28" rx="8" fill="#e3a53d" fill-opacity="0.15"/>
         <text x="32" y="35" font-size="15" text-anchor="middle">🎨</text>
-        <text class="bold-title" x="54" y="34" font-size="14" fill="#f8fafc">FRONTEND</text>
+        <text class="bold-title" x="54" y="34" font-size="14" fill="#e9e7e1">FRONTEND</text>
 
         <!-- 2x2 Tech Pills -->
         <!-- Row 1 -->
         <g transform="translate(18, 56)">
           <!-- HTML5 -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="16" cy="15" r="3.5" fill="#ef4444"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">HTML5</text>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">HTML5</text>
 
           <!-- CSS3 -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#38bdf8"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">CSS3 / Tailwind</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#3d5a63"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">CSS3 / Tailwind</text>
         </g>
         <!-- Row 2 -->
         <g transform="translate(18, 94)">
           <!-- JavaScript -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#eab308" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#eab308" stroke-opacity="0.5" stroke-width="1"/>
           <circle cx="16" cy="15" r="3.5" fill="#eab308"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">JavaScript</text>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">JavaScript</text>
 
           <!-- React -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#06b6d4" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#06b6d4"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">React 18 / Vite</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#3d5a63"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">React 18 / Vite</text>
         </g>
         <text class="sans-font" x="18" y="142" font-size="10.5" fill="#64748b">Modern SPAs, interactive UIs &amp; component state</text>
       </g>
@@ -394,32 +394,32 @@
         <rect x="0" y="0" width="374" height="154" rx="16" fill="url(#cardGradBg)" stroke="url(#cardStroke)" stroke-width="1.2"/>
         <rect x="18" y="16" width="28" height="28" rx="8" fill="#22c55e" fill-opacity="0.15"/>
         <text x="32" y="35" font-size="15" text-anchor="middle">⚙️</text>
-        <text class="bold-title" x="54" y="34" font-size="14" fill="#f8fafc">BACKEND</text>
+        <text class="bold-title" x="54" y="34" font-size="14" fill="#e9e7e1">BACKEND</text>
 
         <!-- 2x2 Tech Pills -->
         <!-- Row 1 -->
         <g transform="translate(18, 56)">
           <!-- Node.js -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="16" cy="15" r="3.5" fill="#22c55e"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Node.js</text>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Node.js</text>
 
           <!-- Express.js -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#94a3b8" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#94a3b8" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="191" cy="15" r="3.5" fill="#94a3b8"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Express.js</text>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Express.js</text>
         </g>
         <!-- Row 2 -->
         <g transform="translate(18, 94)">
           <!-- Spring Boot -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#16a34a" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#16a34a" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="16" cy="15" r="3.5" fill="#16a34a"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Spring Boot</text>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Spring Boot</text>
 
           <!-- Django -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#047857" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#047857" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="191" cy="15" r="3.5" fill="#047857"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Django</text>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Django</text>
         </g>
         <text class="sans-font" x="18" y="142" font-size="10.5" fill="#64748b">Scalable REST APIs, authentication &amp; services</text>
       </g>
@@ -427,34 +427,34 @@
       <!-- CARD 4: DATABASE -->
       <g transform="translate(396, 258)">
         <rect x="0" y="0" width="374" height="154" rx="16" fill="url(#cardGradBg)" stroke="url(#cardStroke)" stroke-width="1.2"/>
-        <rect x="18" y="16" width="28" height="28" rx="8" fill="#3b82f6" fill-opacity="0.15"/>
+        <rect x="18" y="16" width="28" height="28" rx="8" fill="#e3a53d" fill-opacity="0.15"/>
         <text x="32" y="35" font-size="15" text-anchor="middle">🗄️</text>
-        <text class="bold-title" x="54" y="34" font-size="14" fill="#f8fafc">DATABASE</text>
+        <text class="bold-title" x="54" y="34" font-size="14" fill="#e9e7e1">DATABASE</text>
 
         <!-- 2x2 Tech Pills -->
         <!-- Row 1 -->
         <g transform="translate(18, 56)">
           <!-- PostgreSQL -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="16" cy="15" r="3.5" fill="#3b82f6"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">PostgreSQL</text>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="16" cy="15" r="3.5" fill="#3d5a63"/>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">PostgreSQL</text>
 
           <!-- MySQL -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#0284c7"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">MySQL</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#e3a53d"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">MySQL</text>
         </g>
         <!-- Row 2 -->
         <g transform="translate(18, 94)">
           <!-- MongoDB -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#10b981" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#10b981" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="16" cy="15" r="3.5" fill="#10b981"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">MongoDB</text>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">MongoDB</text>
 
           <!-- Supabase / Cloud -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#34d399"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Supabase DB</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#10b981" stroke-opacity="0.4" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#10b981"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Supabase DB</text>
         </g>
         <text class="sans-font" x="18" y="142" font-size="10.5" fill="#64748b">Relational schemas, NoSQL document stores &amp; queries</text>
       </g>
@@ -463,34 +463,34 @@
       <!-- CARD 5: AI / ML -->
       <g transform="translate(0, 426)">
         <rect x="0" y="0" width="374" height="154" rx="16" fill="url(#cardGradBg)" stroke="url(#cardStroke)" stroke-width="1.2"/>
-        <rect x="18" y="16" width="28" height="28" rx="8" fill="#a855f7" fill-opacity="0.15"/>
+        <rect x="18" y="16" width="28" height="28" rx="8" fill="#e3a53d" fill-opacity="0.15"/>
         <text x="32" y="35" font-size="15" text-anchor="middle">🧠</text>
-        <text class="bold-title" x="54" y="34" font-size="14" fill="#f8fafc">AI / ML</text>
+        <text class="bold-title" x="54" y="34" font-size="14" fill="#e9e7e1">AI / ML</text>
 
         <!-- 2x2 Tech Pills -->
         <!-- Row 1 -->
         <g transform="translate(18, 56)">
           <!-- Python -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="16" cy="15" r="3.5" fill="#38bdf8"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Python</text>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="16" cy="15" r="3.5" fill="#e3a53d"/>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Python</text>
 
           <!-- NumPy -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#4f46e5" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#4f46e5"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">NumPy</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#3d5a63"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">NumPy</text>
         </g>
         <!-- Row 2 -->
         <g transform="translate(18, 94)">
           <!-- Pandas -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="16" cy="15" r="3.5" fill="#6366f1"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Pandas</text>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="16" cy="15" r="3.5" fill="#e3a53d"/>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Pandas</text>
 
           <!-- Scikit-learn -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#f97316" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#f97316"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Scikit-learn</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#f59e0b" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#f59e0b"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Scikit-learn</text>
         </g>
         <text class="sans-font" x="18" y="142" font-size="10.5" fill="#64748b">Data analysis, model training &amp; predictive pipelines</text>
       </g>
@@ -498,39 +498,39 @@
       <!-- CARD 6: TOOLS & PLATFORMS -->
       <g transform="translate(396, 426)">
         <rect x="0" y="0" width="374" height="154" rx="16" fill="url(#cardGradBg)" stroke="url(#cardStroke)" stroke-width="1.2"/>
-        <rect x="18" y="16" width="28" height="28" rx="8" fill="#f43f5e" fill-opacity="0.15"/>
+        <rect x="18" y="16" width="28" height="28" rx="8" fill="#e3a53d" fill-opacity="0.15"/>
         <text x="32" y="35" font-size="15" text-anchor="middle">🛠️</text>
-        <text class="bold-title" x="54" y="34" font-size="14" fill="#f8fafc">TOOLS &amp; PLATFORMS</text>
+        <text class="bold-title" x="54" y="34" font-size="14" fill="#e9e7e1">TOOLS &amp; PLATFORMS</text>
 
         <!-- 2 Rows of Tech Pills -->
         <!-- Row 1: 3 items -->
         <g transform="translate(18, 56)">
           <!-- Git -->
-          <rect x="0" y="0" width="104" height="30" rx="7" fill="#171d38" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="0" y="0" width="104" height="30" rx="7" fill="#14171f" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="14" cy="15" r="3" fill="#f43f5e"/>
-          <text class="sans-font" x="24" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Git</text>
+          <text class="sans-font" x="24" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Git</text>
 
           <!-- GitHub -->
-          <rect x="114" y="0" width="110" height="30" rx="7" fill="#171d38" stroke="#cbd5e1" stroke-opacity="0.4" stroke-width="1"/>
+          <rect x="114" y="0" width="110" height="30" rx="7" fill="#14171f" stroke="#cbd5e1" stroke-opacity="0.4" stroke-width="1"/>
           <circle cx="128" cy="15" r="3" fill="#cbd5e1"/>
-          <text class="sans-font" x="138" y="20" font-size="12" fill="#f1f5f9" font-weight="600">GitHub</text>
+          <text class="sans-font" x="138" y="20" font-size="12" fill="#e9e7e1" font-weight="600">GitHub</text>
 
           <!-- VS Code -->
-          <rect x="234" y="0" width="104" height="30" rx="7" fill="#171d38" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="248" cy="15" r="3" fill="#0284c7"/>
-          <text class="sans-font" x="258" y="20" font-size="11.5" fill="#f1f5f9" font-weight="600">VS Code</text>
+          <rect x="234" y="0" width="104" height="30" rx="7" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="248" cy="15" r="3" fill="#3d5a63"/>
+          <text class="sans-font" x="258" y="20" font-size="11.5" fill="#e9e7e1" font-weight="600">VS Code</text>
         </g>
         <!-- Row 2: 2 items -->
         <g transform="translate(18, 94)">
           <!-- Antigravity -->
-          <rect x="0" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="16" cy="15" r="3.5" fill="#818cf8"/>
-          <text class="sans-font" x="28" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Antigravity</text>
+          <rect x="0" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.5" stroke-width="1"/>
+          <circle cx="16" cy="15" r="3.5" fill="#e3a53d"/>
+          <text class="sans-font" x="28" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Antigravity</text>
 
           <!-- Codex -->
-          <rect x="175" y="0" width="163" height="30" rx="7" fill="#171d38" stroke="#34d399" stroke-opacity="0.4" stroke-width="1"/>
-          <circle cx="191" cy="15" r="3.5" fill="#34d399"/>
-          <text class="sans-font" x="203" y="20" font-size="12" fill="#f1f5f9" font-weight="600">Codex IDE</text>
+          <rect x="175" y="0" width="163" height="30" rx="7" fill="#14171f" stroke="#10b981" stroke-opacity="0.4" stroke-width="1"/>
+          <circle cx="191" cy="15" r="3.5" fill="#10b981"/>
+          <text class="sans-font" x="203" y="20" font-size="12" fill="#e9e7e1" font-weight="600">Codex IDE</text>
         </g>
         <text class="sans-font" x="18" y="142" font-size="10.5" fill="#64748b">Version control, modern IDEs &amp; dev workflows</text>
       </g>

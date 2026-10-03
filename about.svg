@@ -68,11 +68,11 @@
         <g transform="translate(16, 52)" font-size="11.5">
           <!-- Line 1 -->
           <text x="0" y="14" fill="#64748b">01</text>
-          <text x="30" y="14" fill="#f43f5e">import <tspan fill="#f1f5f9">{{</tspan> <tspan fill="#38bdf8">ExpressApp</tspan> <tspan fill="#f1f5f9">}}</tspan> <tspan fill="#f43f5e">from</tspan> <tspan fill="#34d399">'express'</tspan>;</text>
+          <text x="30" y="14" fill="#f43f5e">import <tspan fill="#f1f5f9">{{</tspan> <tspan fill="#e3a53d">ExpressApp</tspan> <tspan fill="#f1f5f9">}}</tspan> <tspan fill="#f43f5e">from</tspan> <tspan fill="#34d399">'express'</tspan>;</text>
 
           <!-- Line 2 -->
           <text x="0" y="34" fill="#64748b">02</text>
-          <text x="30" y="34" fill="#f43f5e">const <tspan fill="#818cf8">engineer</tspan> <tspan fill="#f1f5f9">=</tspan> <tspan fill="#f1f5f9">{{</tspan></text>
+          <text x="30" y="34" fill="#f43f5e">const <tspan fill="#e3a53d">engineer</tspan> <tspan fill="#f1f5f9">=</tspan> <tspan fill="#f1f5f9">{{</tspan></text>
 
           <!-- Line 3 -->
           <text x="0" y="54" fill="#64748b">03</text>

@@ -89,9 +89,9 @@
 <!-- 🏙️ SECTION 6 — 3D CONTRIBUTION CITY & SNAKE -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <p align="center">
-  <span style="font-family: monospace; color: #38bdf8; font-weight: 700; font-size: 13px; letter-spacing: 2.5px;">// CONTRIBUTION ACTIVITY</span><br/>
-  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #f8fafc; font-weight: 700; font-size: 26px;">3D Contribution City</span><br/>
-  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #94a3b8; font-size: 14px;"><i>Every commit builds another tower — automatically rendered daily via GitHub Actions</i></span>
+  <span style="font-family: monospace; color: #e3a53d; font-weight: 700; font-size: 13px; letter-spacing: 2.5px;">// CONTRIBUTION ACTIVITY</span><br/>
+  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #e9e7e1; font-weight: 700; font-size: 26px;">3D Contribution City</span><br/>
+  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #8b8d97; font-size: 14px;"><i>Every commit builds another tower — automatically rendered daily via GitHub Actions</i></span>
 </p>
 
 <p align="center">
@@ -99,8 +99,8 @@
 </p>
 
 <p align="center">
-  <span style="font-family: monospace; color: #34d399; font-weight: 700; font-size: 12px; letter-spacing: 2px;">// COMMIT GRAPH DYNAMICS</span><br/>
-  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #f8fafc; font-weight: 700; font-size: 20px;">🐍 Contribution Snake</span>
+  <span style="font-family: monospace; color: #10b981; font-weight: 700; font-size: 12px; letter-spacing: 2px;">// COMMIT GRAPH DYNAMICS</span><br/>
+  <span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #e9e7e1; font-weight: 700; font-size: 20px;">🐍 Contribution Snake</span>
 </p>
 
 <p align="center">
