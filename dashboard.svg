@@ -18,13 +18,13 @@
         0% { transform: translateX(-300px) skewX(-18deg); }
         40%, 100% { transform: translateX(450px) skewX(-18deg); }
       }
-      @keyframes fadeUp {
-        from { opacity: 0; transform: translateY(12px); }
-        to { opacity: 1; transform: translateY(0); }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
       .lanyard-sway { transform-origin: 210px 0px; animation: sway 5s ease-in-out infinite; }
       .shine-sweep { animation: shine 5.5s ease-in-out infinite; }
-      .fu { animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      .fu { animation: fadeIn 0.7s ease-out both; }
       text { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; }
       .sans-font { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
       .bold-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-weight: 700; }
@@ -90,12 +90,17 @@
     <clipPath id="badgeShineClip">
       <rect x="55" y="110" width="310" height="520" rx="22"/>
     </clipPath>
+
+    <clipPath id="dashMasterClip">
+      <rect width="1280" height="680" rx="24"/>
+    </clipPath>
   </defs>
 
-  <!-- Master Card Background -->
-  <rect width="1280" height="680" rx="24" fill="url(#dashBg)"/>
-  <rect width="1280" height="680" rx="24" fill="url(#dashDots)"/>
-  <rect x="0.75" y="0.75" width="1278.5" height="678.5" rx="23.25" fill="none" stroke="url(#dashBorder)" stroke-width="1.5"/>
+  <g clip-path="url(#dashMasterClip)">
+    <!-- Master Card Background -->
+    <rect width="1280" height="680" rx="24" fill="url(#dashBg)"/>
+    <rect width="1280" height="680" rx="24" fill="url(#dashDots)"/>
+    <rect x="0.75" y="0.75" width="1278.5" height="678.5" rx="23.25" fill="none" stroke="url(#dashBorder)" stroke-width="1.5"/>
 
   <!-- ==================== LEFT: HANGING DEVELOPER ID WITH LANYARD ==================== -->
   <g class="lanyard-sway">
@@ -295,5 +300,6 @@
         </g>
       </g>
     </g>
+  </g>
   </g>
 </svg>
