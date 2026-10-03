@@ -31,20 +31,20 @@
     </style>
 
     <linearGradient id="dashBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#101426"/>
-      <stop offset="100%" stop-color="#080a14"/>
+      <stop offset="0%" stop-color="#14171f"/>
+      <stop offset="100%" stop-color="#0b0d12"/>
     </linearGradient>
 
     <linearGradient id="dashBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#e3a53d" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#22262f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3d5a63" stop-opacity="0.6"/>
     </linearGradient>
 
     <linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0284c7"/>
-      <stop offset="50%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#0284c7"/>
+      <stop offset="0%" stop-color="#c85a1f"/>
+      <stop offset="50%" stop-color="#e3a53d"/>
+      <stop offset="100%" stop-color="#c85a1f"/>
     </linearGradient>
 
     <linearGradient id="badgeMetal" x1="0" y1="0" x2="0" y2="1">
@@ -54,9 +54,9 @@
     </linearGradient>
 
     <linearGradient id="badgeBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
+      <stop offset="0%" stop-color="#e3a53d"/>
+      <stop offset="50%" stop-color="#3d5a63"/>
+      <stop offset="100%" stop-color="#e3a53d"/>
     </linearGradient>
 
     <linearGradient id="jsGrad" x1="0" y1="0" x2="1" y2="0">
@@ -176,9 +176,9 @@
 
       <!-- Bottom Status Pill -->
       <g transform="translate(24, 436)">
-        <rect x="0" y="0" width="262" height="36" rx="10" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.35" stroke-width="1"/>
-        <circle cx="22" cy="18" r="4" fill="#10b981"/>
-        <text x="36" y="22" font-size="11" fill="#34d399" font-weight="700" letter-spacing="1.5">OPEN TO COLLABORATION</text>
+        <rect x="0" y="0" width="262" height="36" rx="10" fill="#e3a53d" fill-opacity="0.1" stroke="#e3a53d" stroke-opacity="0.35" stroke-width="1"/>
+        <circle cx="22" cy="18" r="4" fill="#e3a53d"/>
+        <text x="36" y="22" font-size="11" fill="#e3a53d" font-weight="700" letter-spacing="1.5">OPEN TO COLLABORATION</text>
       </g>
     </g>
 
@@ -190,41 +190,41 @@
 
   <!-- ==================== RIGHT: DASHBOARD & LIVE TELEMETRY ==================== -->
   <g class="fu" transform="translate(425, 45)">
-    <text x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2">// DEVELOPER DASHBOARD</text>
-    <text class="bold-title" x="0" y="32" font-size="28" fill="#f8fafc">Profile at a glance</text>
+    <text x="0" y="0" font-size="12" fill="#e3a53d" font-weight="700" letter-spacing="2">// DEVELOPER DASHBOARD</text>
+    <text class="bold-title" x="0" y="32" font-size="28" fill="#e9e7e1">Profile at a glance</text>
 
     <!-- 4 KPI Metrics Cards -->
     <g transform="translate(0, 58)">
       <!-- KPI 1: Repos -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="190" height="94" rx="14" fill="#13172e" stroke="#242c4c" stroke-width="1.2"/>
-        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#38bdf8"/>
-        <text class="bold-title" x="18" y="54" font-size="34" fill="#f8fafc">8+</text>
-        <text x="18" y="76" font-size="11" fill="#94a3b8" font-weight="600" letter-spacing="1.2">PUBLIC REPOS</text>
+        <rect x="0" y="0" width="190" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#e3a53d"/>
+        <text class="bold-title" x="18" y="54" font-size="34" fill="#e9e7e1">8+</text>
+        <text x="18" y="76" font-size="11" fill="#8b8d97" font-weight="600" letter-spacing="1.2">PUBLIC REPOS</text>
       </g>
 
       <!-- KPI 2: Featured Builds -->
       <g transform="translate(206, 0)">
-        <rect x="0" y="0" width="190" height="94" rx="14" fill="#13172e" stroke="#242c4c" stroke-width="1.2"/>
-        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#818cf8"/>
-        <text class="bold-title" x="18" y="54" font-size="34" fill="#f8fafc">4</text>
-        <text x="18" y="76" font-size="11" fill="#94a3b8" font-weight="600" letter-spacing="1.2">FEATURED BUILDS</text>
+        <rect x="0" y="0" width="190" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#3d5a63"/>
+        <text class="bold-title" x="18" y="54" font-size="34" fill="#e9e7e1">4</text>
+        <text x="18" y="76" font-size="11" fill="#8b8d97" font-weight="600" letter-spacing="1.2">FEATURED BUILDS</text>
       </g>
 
       <!-- KPI 3: Followers -->
       <g transform="translate(412, 0)">
-        <rect x="0" y="0" width="190" height="94" rx="14" fill="#13172e" stroke="#242c4c" stroke-width="1.2"/>
-        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#34d399"/>
-        <text class="bold-title" x="18" y="54" font-size="34" fill="#f8fafc">6+</text>
-        <text x="18" y="76" font-size="11" fill="#94a3b8" font-weight="600" letter-spacing="1.2">COMMUNITY</text>
+        <rect x="0" y="0" width="190" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#e3a53d"/>
+        <text class="bold-title" x="18" y="54" font-size="34" fill="#e9e7e1">6+</text>
+        <text x="18" y="76" font-size="11" fill="#8b8d97" font-weight="600" letter-spacing="1.2">COMMUNITY</text>
       </g>
 
       <!-- KPI 4: Stargazers -->
       <g transform="translate(618, 0)">
-        <rect x="0" y="0" width="190" height="94" rx="14" fill="#13172e" stroke="#242c4c" stroke-width="1.2"/>
-        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#f59e0b"/>
-        <text class="bold-title" x="18" y="54" font-size="34" fill="#f8fafc">4+</text>
-        <text x="18" y="76" font-size="11" fill="#94a3b8" font-weight="600" letter-spacing="1.2">STARGAZERS</text>
+        <rect x="0" y="0" width="190" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="18" y="16" width="24" height="3" rx="1.5" fill="#3d5a63"/>
+        <text class="bold-title" x="18" y="54" font-size="34" fill="#e9e7e1">4+</text>
+        <text x="18" y="76" font-size="11" fill="#8b8d97" font-weight="600" letter-spacing="1.2">STARGAZERS</text>
       </g>
     </g>
 

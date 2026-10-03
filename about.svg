@@ -13,20 +13,20 @@
     </style>
 
     <linearGradient id="aboutPanelBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#111528"/>
-      <stop offset="100%" stop-color="#0a0c16"/>
+      <stop offset="0%" stop-color="#14171f"/>
+      <stop offset="100%" stop-color="#0b0d12"/>
     </linearGradient>
 
     <linearGradient id="borderGradLeft" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="0%" stop-color="#e3a53d" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#22262f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3d5a63" stop-opacity="0.5"/>
     </linearGradient>
 
     <linearGradient id="borderGradRight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0.5"/>
+      <stop offset="0%" stop-color="#3d5a63" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#22262f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e3a53d" stop-opacity="0.6"/>
     </linearGradient>
 
     <pattern id="cardDots" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -41,25 +41,25 @@
     <rect x="0.75" y="0.75" width="618.5" height="638.5" rx="21.25" fill="none" stroke="url(#borderGradLeft)" stroke-width="1.5"/>
 
     <g transform="translate(36, 38)">
-      <text class="fu" x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2">// DEVELOPER</text>
-      <text class="fu bold-title" x="0" y="32" font-size="25" fill="#f8fafc">Building useful software</text>
-      <text class="fu sans-font" x="0" y="56" font-size="13.5" fill="#94a3b8">Crafting scalable web systems, APIs &amp; applied AI utilities.</text>
+      <text class="fu" x="0" y="0" font-size="12" fill="#e3a53d" font-weight="700" letter-spacing="2">// DEVELOPER</text>
+      <text class="fu bold-title" x="0" y="32" font-size="25" fill="#e9e7e1">Building useful software</text>
+      <text class="fu sans-font" x="0" y="56" font-size="13.5" fill="#8b8d97">Crafting scalable web systems, APIs &amp; applied AI utilities.</text>
 
       <!-- Internal Browser / Code Window Illustration -->
       <g class="fu" transform="translate(0, 78)" style="animation-delay: 0.15s;">
-        <rect x="0" y="0" width="548" height="242" rx="12" fill="#0b0e1b" stroke="#1f2642" stroke-width="1.2"/>
+        <rect x="0" y="0" width="548" height="242" rx="12" fill="#0b0d12" stroke="#22262f" stroke-width="1.2"/>
 
         <!-- Window Tab Header -->
-        <rect x="0" y="0" width="548" height="34" rx="12" fill="#13172c"/>
-        <rect x="0" y="20" width="548" height="14" fill="#13172c"/>
+        <rect x="0" y="0" width="548" height="34" rx="12" fill="#14171f"/>
+        <rect x="0" y="20" width="548" height="14" fill="#14171f"/>
         <circle cx="20" cy="17" r="5" fill="#ef4444" fill-opacity="0.85"/>
-        <circle cx="36" cy="17" r="5" fill="#f59e0b" fill-opacity="0.85"/>
+        <circle cx="36" cy="17" r="5" fill="#e3a53d" fill-opacity="0.85"/>
         <circle cx="52" cy="17" r="5" fill="#10b981" fill-opacity="0.85"/>
 
         <!-- Tab 1 (Active) -->
-        <rect x="78" y="6" width="136" height="28" rx="6" fill="#0b0e1b" stroke="#262e4e" stroke-width="1"/>
-        <circle cx="92" cy="20" r="3" fill="#38bdf8"/>
-        <text x="102" y="24" font-size="11" fill="#f1f5f9">karan.config.ts</text>
+        <rect x="78" y="6" width="136" height="28" rx="6" fill="#0b0d12" stroke="#22262f" stroke-width="1"/>
+        <circle cx="92" cy="20" r="3" fill="#e3a53d"/>
+        <text x="102" y="24" font-size="11" fill="#e9e7e1">karan.config.ts</text>
 
         <!-- Tab 2 (Inactive) -->
         <text x="230" y="24" font-size="11" fill="#64748b">server.py</text>
@@ -108,70 +108,70 @@
       <g class="fu" transform="translate(0, 332)" style="animation-delay: 0.3s;">
         <!-- Node.js -->
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="126" height="34" rx="9" fill="#161b30" stroke="#22c55e" stroke-opacity="0.6" stroke-width="1.2"/>
-          <circle cx="16" cy="17" r="4" fill="#22c55e"/>
-          <text class="sans-font" x="28" y="22" font-size="12" fill="#f1f5f9" font-weight="600">Node.js</text>
+          <rect x="0" y="0" width="126" height="34" rx="9" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.6" stroke-width="1.2"/>
+          <circle cx="16" cy="17" r="4" fill="#e3a53d"/>
+          <text class="sans-font" x="28" y="22" font-size="12" fill="#e9e7e1" font-weight="600">Node.js</text>
         </g>
         <!-- Python -->
         <g transform="translate(138, 0)">
-          <rect x="0" y="0" width="122" height="34" rx="9" fill="#161b30" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="1.2"/>
-          <circle cx="16" cy="17" r="4" fill="#38bdf8"/>
-          <text class="sans-font" x="28" y="22" font-size="12" fill="#f1f5f9" font-weight="600">Python</text>
+          <rect x="0" y="0" width="122" height="34" rx="9" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.6" stroke-width="1.2"/>
+          <circle cx="16" cy="17" r="4" fill="#e3a53d"/>
+          <text class="sans-font" x="28" y="22" font-size="12" fill="#e9e7e1" font-weight="600">Python</text>
         </g>
         <!-- React -->
         <g transform="translate(272, 0)">
-          <rect x="0" y="0" width="122" height="34" rx="9" fill="#161b30" stroke="#06b6d4" stroke-opacity="0.6" stroke-width="1.2"/>
-          <circle cx="16" cy="17" r="4" fill="#06b6d4"/>
-          <text class="sans-font" x="28" y="22" font-size="12" fill="#f1f5f9" font-weight="600">React</text>
+          <rect x="0" y="0" width="122" height="34" rx="9" fill="#14171f" stroke="#3d5a63" stroke-opacity="0.8" stroke-width="1.2"/>
+          <circle cx="16" cy="17" r="4" fill="#3d5a63"/>
+          <text class="sans-font" x="28" y="22" font-size="12" fill="#e9e7e1" font-weight="600">React</text>
         </g>
         <!-- AI/ML -->
         <g transform="translate(406, 0)">
-          <rect x="0" y="0" width="142" height="34" rx="9" fill="#161b30" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1.2"/>
-          <circle cx="16" cy="17" r="4" fill="#a855f7"/>
-          <text class="sans-font" x="28" y="22" font-size="12" fill="#f1f5f9" font-weight="600">AI / ML</text>
+          <rect x="0" y="0" width="142" height="34" rx="9" fill="#14171f" stroke="#e3a53d" stroke-opacity="0.6" stroke-width="1.2"/>
+          <circle cx="16" cy="17" r="4" fill="#e3a53d"/>
+          <text class="sans-font" x="28" y="22" font-size="12" fill="#e9e7e1" font-weight="600">AI / ML</text>
         </g>
       </g>
 
       <!-- Current Focus Section -->
       <g class="fu" transform="translate(0, 380)" style="animation-delay: 0.45s;">
-        <text x="0" y="0" font-size="11" fill="#94a3b8" font-weight="700" letter-spacing="1.5">CURRENT FOCUS</text>
+        <text x="0" y="0" font-size="11" fill="#8b8d97" font-weight="700" letter-spacing="1.5">CURRENT FOCUS</text>
 
         <!-- 2x2 Focus Cards -->
         <g transform="translate(0, 14)">
           <!-- Focus 1: Java DSA -->
           <g transform="translate(0, 0)">
-            <rect x="0" y="0" width="264" height="74" rx="12" fill="#141930" stroke="#262f50" stroke-width="1"/>
-            <rect x="12" y="14" width="44" height="44" rx="10" fill="#f59e0b" fill-opacity="0.12"/>
+            <rect x="0" y="0" width="264" height="74" rx="12" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+            <rect x="12" y="14" width="44" height="44" rx="10" fill="#e3a53d" fill-opacity="0.12"/>
             <text x="34" y="42" font-size="18" text-anchor="middle">🔥</text>
-            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#f1f5f9">Java DSA</text>
-            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#94a3b8">LeetCode &amp; Algorithmic logic</text>
+            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#e9e7e1">Java DSA</text>
+            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#8b8d97">LeetCode &amp; Algorithmic logic</text>
           </g>
 
           <!-- Focus 2: Python Backend -->
           <g transform="translate(284, 0)">
-            <rect x="0" y="0" width="264" height="74" rx="12" fill="#141930" stroke="#262f50" stroke-width="1"/>
-            <rect x="12" y="14" width="44" height="44" rx="10" fill="#818cf8" fill-opacity="0.12"/>
+            <rect x="0" y="0" width="264" height="74" rx="12" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+            <rect x="12" y="14" width="44" height="44" rx="10" fill="#3d5a63" fill-opacity="0.2"/>
             <text x="34" y="42" font-size="18" text-anchor="middle">⚙️</text>
-            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#f1f5f9">Python Backend</text>
-            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#94a3b8">REST APIs &amp; Web services</text>
+            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#e9e7e1">Python Backend</text>
+            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#8b8d97">REST APIs &amp; Web services</text>
           </g>
 
           <!-- Focus 3: AI/ML -->
           <g transform="translate(0, 86)">
-            <rect x="0" y="0" width="264" height="74" rx="12" fill="#141930" stroke="#262f50" stroke-width="1"/>
-            <rect x="12" y="14" width="44" height="44" rx="10" fill="#a855f7" fill-opacity="0.12"/>
+            <rect x="0" y="0" width="264" height="74" rx="12" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+            <rect x="12" y="14" width="44" height="44" rx="10" fill="#e3a53d" fill-opacity="0.12"/>
             <text x="34" y="42" font-size="18" text-anchor="middle">🧠</text>
-            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#f1f5f9">AI / ML</text>
-            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#94a3b8">NumPy, Pandas, Scikit-learn</text>
+            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#e9e7e1">AI / ML</text>
+            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#8b8d97">NumPy, Pandas, Scikit-learn</text>
           </g>
 
           <!-- Focus 4: Full-Stack Development -->
           <g transform="translate(284, 86)">
-            <rect x="0" y="0" width="264" height="74" rx="12" fill="#141930" stroke="#262f50" stroke-width="1"/>
-            <rect x="12" y="14" width="44" height="44" rx="10" fill="#38bdf8" fill-opacity="0.12"/>
+            <rect x="0" y="0" width="264" height="74" rx="12" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+            <rect x="12" y="14" width="44" height="44" rx="10" fill="#3d5a63" fill-opacity="0.2"/>
             <text x="34" y="42" font-size="18" text-anchor="middle">💻</text>
-            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#f1f5f9">Full-Stack Dev</text>
-            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#94a3b8">Node, Express, React &amp; SQL</text>
+            <text class="bold-title" x="66" y="32" font-size="13.5" fill="#e9e7e1">Full-Stack Dev</text>
+            <text class="sans-font" x="66" y="52" font-size="11.5" fill="#8b8d97">Node, Express, React &amp; SQL</text>
           </g>
         </g>
       </g>
@@ -185,75 +185,75 @@
     <rect x="0.75" y="0.75" width="618.5" height="638.5" rx="21.25" fill="none" stroke="url(#borderGradRight)" stroke-width="1.5"/>
 
     <g transform="translate(36, 38)">
-      <text class="fu" x="0" y="0" font-size="12" fill="#818cf8" font-weight="700" letter-spacing="2">// LIFE OUTSIDE CODE</text>
-      <text class="fu bold-title" x="0" y="32" font-size="25" fill="#f8fafc">Beyond the terminal</text>
-      <text class="fu sans-font" x="0" y="56" font-size="13.5" fill="#94a3b8">Analytical discipline, competitive sports &amp; horizons.</text>
+      <text class="fu" x="0" y="0" font-size="12" fill="#e3a53d" font-weight="700" letter-spacing="2">// LIFE OUTSIDE CODE</text>
+      <text class="fu bold-title" x="0" y="32" font-size="25" fill="#e9e7e1">Beyond the terminal</text>
+      <text class="fu sans-font" x="0" y="56" font-size="13.5" fill="#8b8d97">Analytical discipline, competitive sports &amp; horizons.</text>
 
       <!-- 3 Visual Hobbies Cards -->
       <g class="fu" transform="translate(0, 78)" style="animation-delay: 0.15s;">
         <!-- Hobby 1: Problem Solving -->
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="548" height="94" rx="14" fill="#141930" stroke="#262f50" stroke-width="1"/>
-          <rect x="16" y="16" width="62" height="62" rx="12" fill="#f59e0b" fill-opacity="0.12"/>
+          <rect x="0" y="0" width="548" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <rect x="16" y="16" width="62" height="62" rx="12" fill="#e3a53d" fill-opacity="0.12"/>
           <text x="47" y="53" font-size="26" text-anchor="middle">🧩</text>
-          <text class="bold-title" x="94" y="38" font-size="16" fill="#f1f5f9">Problem Solving</text>
-          <text class="sans-font" x="94" y="60" font-size="13" fill="#94a3b8">Competitive programming puzzles, mathematical logic &amp; optimization</text>
-          <rect x="438" y="16" width="94" height="22" rx="6" fill="#f59e0b" fill-opacity="0.15"/>
-          <text x="485" y="31" font-size="10.5" fill="#f59e0b" font-weight="700" text-anchor="middle">ANALYSIS</text>
+          <text class="bold-title" x="94" y="38" font-size="16" fill="#e9e7e1">Problem Solving</text>
+          <text class="sans-font" x="94" y="60" font-size="13" fill="#8b8d97">Competitive programming puzzles, mathematical logic &amp; optimization</text>
+          <rect x="438" y="16" width="94" height="22" rx="6" fill="#e3a53d" fill-opacity="0.15"/>
+          <text x="485" y="31" font-size="10.5" fill="#e3a53d" font-weight="700" text-anchor="middle">ANALYSIS</text>
         </g>
 
         <!-- Hobby 2: Cricket -->
         <g transform="translate(0, 110)">
-          <rect x="0" y="0" width="548" height="94" rx="14" fill="#141930" stroke="#262f50" stroke-width="1"/>
-          <rect x="16" y="16" width="62" height="62" rx="12" fill="#34d399" fill-opacity="0.12"/>
+          <rect x="0" y="0" width="548" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <rect x="16" y="16" width="62" height="62" rx="12" fill="#3d5a63" fill-opacity="0.2"/>
           <text x="47" y="53" font-size="26" text-anchor="middle">🏏</text>
-          <text class="bold-title" x="94" y="38" font-size="16" fill="#f1f5f9">Cricket</text>
-          <text class="sans-font" x="94" y="60" font-size="13" fill="#94a3b8">Tactical team play, on-field strategy, stamina &amp; sharp split-second reflexes</text>
-          <rect x="438" y="16" width="94" height="22" rx="6" fill="#34d399" fill-opacity="0.15"/>
-          <text x="485" y="31" font-size="10.5" fill="#34d399" font-weight="700" text-anchor="middle">STRATEGY</text>
+          <text class="bold-title" x="94" y="38" font-size="16" fill="#e9e7e1">Cricket</text>
+          <text class="sans-font" x="94" y="60" font-size="13" fill="#8b8d97">Tactical team play, on-field strategy, stamina &amp; sharp split-second reflexes</text>
+          <rect x="438" y="16" width="94" height="22" rx="6" fill="#3d5a63" fill-opacity="0.25"/>
+          <text x="485" y="31" font-size="10.5" fill="#e9e7e1" font-weight="700" text-anchor="middle">STRATEGY</text>
         </g>
 
         <!-- Hobby 3: Travelling -->
         <g transform="translate(0, 220)">
-          <rect x="0" y="0" width="548" height="94" rx="14" fill="#141930" stroke="#262f50" stroke-width="1"/>
-          <rect x="16" y="16" width="62" height="62" rx="12" fill="#38bdf8" fill-opacity="0.12"/>
+          <rect x="0" y="0" width="548" height="94" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <rect x="16" y="16" width="62" height="62" rx="12" fill="#e3a53d" fill-opacity="0.12"/>
           <text x="47" y="53" font-size="26" text-anchor="middle">✈️</text>
-          <text class="bold-title" x="94" y="38" font-size="16" fill="#f1f5f9">Travelling</text>
-          <text class="sans-font" x="94" y="60" font-size="13" fill="#94a3b8">Exploring hill stations, mountain horizons, nature &amp; fresh cultural ideas</text>
-          <rect x="438" y="16" width="94" height="22" rx="6" fill="#38bdf8" fill-opacity="0.15"/>
-          <text x="485" y="31" font-size="10.5" fill="#38bdf8" font-weight="700" text-anchor="middle">HORIZONS</text>
+          <text class="bold-title" x="94" y="38" font-size="16" fill="#e9e7e1">Travelling</text>
+          <text class="sans-font" x="94" y="60" font-size="13" fill="#8b8d97">Exploring hill stations, mountain horizons, nature &amp; fresh cultural ideas</text>
+          <rect x="438" y="16" width="94" height="22" rx="6" fill="#e3a53d" fill-opacity="0.15"/>
+          <text x="485" y="31" font-size="10.5" fill="#e3a53d" font-weight="700" text-anchor="middle">HORIZONS</text>
         </g>
       </g>
 
       <!-- Activity Rings / Discipline Meters -->
       <g class="fu" transform="translate(0, 420)" style="animation-delay: 0.45s;">
-        <rect x="0" y="0" width="548" height="154" rx="16" fill="#0e1122" stroke="#1f2642" stroke-width="1.2"/>
-        <text class="bold-title" x="24" y="28" font-size="14" fill="#f8fafc">Daily Principles &amp; Energy Metrics</text>
+        <rect x="0" y="0" width="548" height="154" rx="16" fill="#0b0d12" stroke="#22262f" stroke-width="1.2"/>
+        <text class="bold-title" x="24" y="28" font-size="14" fill="#e9e7e1">Daily Principles &amp; Energy Metrics</text>
 
         <!-- 3 Activity Gauges -->
         <g transform="translate(50, 92)">
           <!-- Ring 1: Code & Build -->
           <g transform="translate(0, 0)">
-            <circle r="32" fill="none" stroke="#222a48" stroke-width="6"/>
-            <circle r="32" fill="none" stroke="#38bdf8" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="24" stroke-linecap="round" transform="rotate(-90)"/>
-            <text class="bold-title" x="0" y="5" font-size="13" fill="#38bdf8" text-anchor="middle">BUILD</text>
-            <text class="sans-font" x="0" y="48" font-size="11.5" fill="#94a3b8" text-anchor="middle">92% Velocity</text>
+            <circle r="32" fill="none" stroke="#14171f" stroke-width="6"/>
+            <circle r="32" fill="none" stroke="#e3a53d" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="24" stroke-linecap="round" transform="rotate(-90)"/>
+            <text class="bold-title" x="0" y="5" font-size="13" fill="#e3a53d" text-anchor="middle">BUILD</text>
+            <text class="sans-font" x="0" y="48" font-size="11.5" fill="#8b8d97" text-anchor="middle">92% Velocity</text>
           </g>
 
           <!-- Ring 2: Learn & Refine -->
           <g transform="translate(170, 0)">
-            <circle r="32" fill="none" stroke="#222a48" stroke-width="6"/>
-            <circle r="32" fill="none" stroke="#818cf8" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="32" stroke-linecap="round" transform="rotate(-90)"/>
-            <text class="bold-title" x="0" y="5" font-size="13" fill="#818cf8" text-anchor="middle">LEARN</text>
-            <text class="sans-font" x="0" y="48" font-size="11.5" fill="#94a3b8" text-anchor="middle">88% Knowledge</text>
+            <circle r="32" fill="none" stroke="#14171f" stroke-width="6"/>
+            <circle r="32" fill="none" stroke="#3d5a63" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="32" stroke-linecap="round" transform="rotate(-90)"/>
+            <text class="bold-title" x="0" y="5" font-size="13" fill="#e9e7e1" text-anchor="middle">LEARN</text>
+            <text class="sans-font" x="0" y="48" font-size="11.5" fill="#8b8d97" text-anchor="middle">88% Knowledge</text>
           </g>
 
           <!-- Ring 3: Problem Solving -->
           <g transform="translate(340, 0)">
-            <circle r="32" fill="none" stroke="#222a48" stroke-width="6"/>
-            <circle r="32" fill="none" stroke="#34d399" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="16" stroke-linecap="round" transform="rotate(-90)"/>
-            <text class="bold-title" x="0" y="5" font-size="13" fill="#34d399" text-anchor="middle">SOLVE</text>
-            <text class="sans-font" x="0" y="48" font-size="11.5" fill="#94a3b8" text-anchor="middle">95% Precision</text>
+            <circle r="32" fill="none" stroke="#14171f" stroke-width="6"/>
+            <circle r="32" fill="none" stroke="#e3a53d" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="16" stroke-linecap="round" transform="rotate(-90)"/>
+            <text class="bold-title" x="0" y="5" font-size="13" fill="#e3a53d" text-anchor="middle">SOLVE</text>
+            <text class="sans-font" x="0" y="48" font-size="11.5" fill="#8b8d97" text-anchor="middle">95% Precision</text>
           </g>
         </g>
       </g>

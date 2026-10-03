@@ -26,30 +26,31 @@
     </style>
 
     <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0e1222"/>
-      <stop offset="100%" stop-color="#070913"/>
+      <stop offset="0%" stop-color="#14171f"/>
+      <stop offset="100%" stop-color="#0b0d12"/>
     </linearGradient>
 
     <linearGradient id="edgeGlow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.6"/>
-      <stop offset="40%" stop-color="#3b82f6" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#e3a53d" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#3d5a63" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e3a53d" stop-opacity="0.7"/>
     </linearGradient>
 
     <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="50%" stop-color="#818cf8"/>
-      <stop offset="100%" stop-color="#c084fc"/>
+      <stop offset="0%" stop-color="#e9e7e1"/>
+      <stop offset="48%" stop-color="#f5f0e6"/>
+      <stop offset="52%" stop-color="#e3a53d"/>
+      <stop offset="100%" stop-color="#e3a53d"/>
     </linearGradient>
 
     <radialGradient id="portraitGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
-      <stop offset="60%" stop-color="#818cf8" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#e3a53d" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#3d5a63" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0b0d12" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="matrixDots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="0.9" fill="#ffffff" fill-opacity="0.05"/>
+      <circle cx="12" cy="12" r="0.9" fill="#ffffff" fill-opacity="0.04"/>
     </pattern>
 
     <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
@@ -80,16 +81,16 @@
 
     <!-- Ambient Glow Orbs -->
     <g filter="url(#ambientBlur)" opacity="0.45">
-      <circle class="blob1" cx="220" cy="140" r="160" fill="#22d3ee" fill-opacity="0.22"/>
-      <circle class="blob2" cx="540" cy="460" r="180" fill="#818cf8" fill-opacity="0.20"/>
-      <circle class="blob1" cx="1045" cy="255" r="210" fill="#38bdf8" fill-opacity="0.26"/>
+      <circle class="blob1" cx="220" cy="140" r="160" fill="#e3a53d" fill-opacity="0.12"/>
+      <circle class="blob2" cx="540" cy="460" r="180" fill="#3d5a63" fill-opacity="0.16"/>
+      <circle class="blob1" cx="1045" cy="255" r="210" fill="#e3a53d" fill-opacity="0.15"/>
     </g>
 
     <!-- Outer Hairline Gradient Border -->
     <rect x="0.75" y="0.75" width="1278.5" height="558.5" rx="23.25" fill="none" stroke="url(#edgeGlow)" stroke-width="1.5"/>
 
     <!-- Technical HUD Corner Accents on Master Frame -->
-    <g stroke="#38bdf8" stroke-width="1.8" fill="none" opacity="0.6">
+    <g stroke="#e3a53d" stroke-width="1.8" fill="none" opacity="0.6">
       <path d="M20 36 V 20 H 36"/>
       <path d="M1260 36 V 20 H 1244"/>
       <path d="M20 524 V 540 H 36"/>
@@ -100,91 +101,97 @@
     <g transform="translate(60, 0)">
       <!-- Status Badge -->
       <g>
-        <rect x="0" y="52" width="204" height="32" rx="16" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.35"/>
-        <circle cx="16" cy="68" r="4" fill="#10b981"/>
-        <circle cx="16" cy="68" r="4" fill="none" stroke="#10b981" stroke-width="1.5">
+        <rect x="0" y="52" width="214" height="32" rx="16" fill="#e3a53d" fill-opacity="0.1" stroke="#e3a53d" stroke-opacity="0.35"/>
+        <circle cx="16" cy="68" r="4" fill="#e3a53d"/>
+        <circle cx="16" cy="68" r="4" fill="none" stroke="#e3a53d" stroke-width="1.5">
           <animate attributeName="r" values="4;13" dur="2s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
         </circle>
-        <text x="28" y="72" font-size="10.5" font-weight="700" fill="#34d399" letter-spacing="1.5">AVAILABLE FOR SDE ROLES</text>
+        <text x="28" y="72" font-size="10.5" font-weight="700" fill="#e3a53d" letter-spacing="1.5">AVAILABLE FOR SDE ROLES</text>
       </g>
 
-      <!-- Welcome Label -->
-      <text class="sans-font" x="2" y="136" font-size="24" font-weight="500" fill="#94a3b8">
-        Hi there, I'm
+      <!-- Eyebrow / Welcome Label matching portfolio -->
+      <text class="sans-font" x="2" y="136" font-size="14" font-weight="600" fill="#e3a53d" letter-spacing="1.5">
+        ― B.TECH CSE (AI/ML) · QUANTUM UNIVERSITY
       </text>
 
-      <!-- Full Name Header -->
-      <text class="display-name" x="0" y="214" font-size="70" letter-spacing="-1.5" fill="url(#nameGradient)" filter="url(#glowFilter)">
-        Karan Kumar
+      <!-- Full Name Header: KARAN in cream white, KUMAR in rich gold -->
+      <text class="display-name" x="0" y="214" font-size="68" letter-spacing="-1.2">
+        <tspan fill="#e9e7e1">Karan </tspan><tspan fill="#e3a53d">Kumar</tspan>
       </text>
 
       <!-- Cycling Roles Section -->
       <g transform="translate(2, 268)">
-        <text x="0" y="0" font-size="22" font-weight="700" fill="#38bdf8">&gt;</text>
+        <text x="0" y="0" font-size="22" font-weight="700" fill="#e3a53d">&gt;</text>
         <g transform="translate(26, 0)">
           <!-- Role 1: Full-Stack Developer -->
-          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="1">
+          <text font-size="22" font-weight="600" fill="#e9e7e1" opacity="1">
             Full-Stack Developer
             <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.97;0.98;0.99;0.995;0.999;1" dur="12s" repeatCount="indefinite"/>
           </text>
           <!-- Role 2: AI/ML Student -->
-          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="0">
+          <text font-size="22" font-weight="600" fill="#e9e7e1" opacity="0">
             AI/ML Student
             <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.24;0.27;0.47;0.50;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
           </text>
           <!-- Role 3: Java DSA / Problem Solver -->
-          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="0">
+          <text font-size="22" font-weight="600" fill="#e9e7e1" opacity="0">
             Java DSA &amp; Problem Solver
             <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.49;0.52;0.72;0.75;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite"/>
           </text>
           <!-- Role 4: Problem Solver -->
-          <text font-size="22" font-weight="600" fill="#f1f5f9" opacity="0">
+          <text font-size="22" font-weight="600" fill="#e9e7e1" opacity="0">
             Problem Solver
             <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.74;0.77;0.97;0.99;0.992;0.995;0.998;1" dur="12s" repeatCount="indefinite"/>
           </text>
         </g>
       </g>
 
-      <!-- Bio / Description -->
+      <!-- Bio / Description: Wrapped cleanly to prevent picture collision -->
       <g class="sans-font">
-        <text x="2" y="316" font-size="15.5" fill="#cbd5e1" font-weight="400">
-          B.Tech CSE (AI/ML) student focused on building real-world applications with Node.js and Python.
+        <text x="2" y="310" font-size="15" fill="#8b8d97" font-weight="400">
+          B.Tech CSE (AI/ML) student focused on building
         </text>
-        <text x="2" y="342" font-size="15" fill="#94a3b8" font-weight="400">
-          I use Java for Data Structures, Algorithms, and problem solving while continuously improving my skills.
+        <text x="2" y="334" font-size="15" fill="#e9e7e1" font-weight="500">
+          real-world applications with <tspan font-weight="600" fill="#e3a53d">Node.js</tspan> and <tspan font-weight="600" fill="#e3a53d">Python</tspan>.
+        </text>
+        <text x="2" y="358" font-size="14.5" fill="#8b8d97" font-weight="400">
+          I use <tspan font-weight="600" fill="#e9e7e1">Java</tspan> for Data Structures, Algorithms, and
+        </text>
+        <text x="2" y="380" font-size="14.5" fill="#8b8d97" font-weight="400">
+          problem solving while continuously improving my skills.
         </text>
       </g>
 
       <!-- Meta Pill Row -->
-      <g transform="translate(0, 412)">
+      <g transform="translate(0, 420)">
         <!-- Location -->
         <g transform="translate(0, 0)">
-          <rect x="0" y="0" width="215" height="38" rx="10" fill="#151930" stroke="#262f50" stroke-width="1"/>
-          <path d="M16 19c0-4.4 3.6-8 8-8s8 3.6 8 8c0 5-8 12-8 12s-8-7-8-12z" fill="none" stroke="#38bdf8" stroke-width="1.8" transform="translate(0,-5)"/>
-          <circle cx="24" cy="14" r="2.5" fill="#38bdf8"/>
-          <text x="38" y="24" font-size="12" fill="#cbd5e1" font-weight="500">Roorkee, Uttarakhand</text>
+          <rect x="0" y="0" width="215" height="38" rx="10" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <path d="M16 19c0-4.4 3.6-8 8-8s8 3.6 8 8c0 5-8 12-8 12s-8-7-8-12z" fill="none" stroke="#e3a53d" stroke-width="1.8" transform="translate(0,-5)"/>
+          <circle cx="24" cy="14" r="2.5" fill="#e3a53d"/>
+          <text x="38" y="24" font-size="12" fill="#e9e7e1" font-weight="500">Roorkee, Uttarakhand</text>
         </g>
 
         <!-- Focus: AI/ML -->
         <g transform="translate(225, 0)">
-          <rect x="0" y="0" width="130" height="38" rx="10" fill="#151930" stroke="#262f50" stroke-width="1"/>
-          <circle cx="18" cy="19" r="3.5" fill="#818cf8"/>
-          <text x="30" y="24" font-size="12" fill="#cbd5e1" font-weight="500">⚡ AI / ML</text>
+          <rect x="0" y="0" width="130" height="38" rx="10" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <circle cx="18" cy="19" r="3.5" fill="#e3a53d"/>
+          <text x="30" y="24" font-size="12" fill="#e9e7e1" font-weight="500">⚡ AI / ML</text>
         </g>
 
         <!-- Focus: Full-Stack -->
         <g transform="translate(365, 0)">
-          <rect x="0" y="0" width="155" height="38" rx="10" fill="#151930" stroke="#262f50" stroke-width="1"/>
-          <circle cx="18" cy="19" r="3.5" fill="#38bdf8"/>
-          <text x="30" y="24" font-size="12" fill="#cbd5e1" font-weight="500">💻 Full-Stack</text>
+          <rect x="0" y="0" width="155" height="38" rx="10" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <circle cx="18" cy="19" r="3.5" fill="#e3a53d"/>
+          <text x="30" y="24" font-size="12" fill="#e9e7e1" font-weight="500">💻 Full-Stack</text>
         </g>
 
         <!-- Focus: Java DSA -->
         <g transform="translate(530, 0)">
-          <rect x="0" y="0" width="145" height="38" rx="10" fill="#151930" stroke="#262f50" stroke-width="1"/>
-          <circle cx="18" cy="19" r="3.5" fill="#f59e0b"/>
-          <text x="30" y="24" font-size="12" fill="#cbd5e1" font-weight="500">🔥 Java DSA</text>
+          <rect x="0" y="0" width="145" height="38" rx="10" fill="#14171f" stroke="#22262f" stroke-width="1"/>
+          <circle cx="18" cy="19" r="3.5" fill="#e3a53d"/>
+          <text x="30" y="24" font-size="12" fill="#e9e7e1" font-weight="500">🔥 Java DSA</text>
         </g>
       </g>
     </g>
@@ -197,16 +204,16 @@
       <!-- Rotating Outer HUD Targeting Rings -->
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0 170 210" to="360 170 210" dur="22s" repeatCount="indefinite"/>
-        <circle cx="170" cy="210" r="150" fill="none" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="14 8 4 8"/>
-        <circle cx="170" cy="210" r="162" fill="none" stroke="#818cf8" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 14"/>
+        <circle cx="170" cy="210" r="150" fill="none" stroke="#e3a53d" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="14 8 4 8"/>
+        <circle cx="170" cy="210" r="162" fill="none" stroke="#3d5a63" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 14"/>
       </g>
       <g>
         <animateTransform attributeName="transform" type="rotate" from="360 170 210" to="0 170 210" dur="28s" repeatCount="indefinite"/>
-        <circle cx="170" cy="210" r="138" fill="none" stroke="#c084fc" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="24 12"/>
+        <circle cx="170" cy="210" r="138" fill="none" stroke="#e3a53d" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="24 12"/>
       </g>
 
       <!-- Glass Frame Behind Portrait -->
-      <rect x="35" y="75" width="270" height="270" rx="24" fill="#11152a" fill-opacity="0.85" stroke="#2c365d" stroke-width="1.5"/>
+      <rect x="35" y="75" width="270" height="270" rx="24" fill="#14171f" fill-opacity="0.85" stroke="#22262f" stroke-width="1.5"/>
 
       <!-- The Stylized Developer Portrait -->
       <g clip-path="url(#avatarClip)" transform="translate(-875, -45)">
@@ -215,7 +222,7 @@
       </g>
 
       <!-- HUD Corner Brackets over Portrait -->
-      <g stroke="#38bdf8" stroke-width="2.5" fill="none">
+      <g stroke="#e3a53d" stroke-width="2.5" fill="none">
         <path d="M30 96 V 70 H 56"/>
         <path d="M284 70 H 310 V 96"/>
         <path d="M30 324 V 350 H 56"/>
@@ -223,17 +230,17 @@
       </g>
 
       <!-- HUD Top Tag -->
-      <rect x="80" y="55" width="180" height="22" rx="6" fill="#151930" stroke="#38bdf8" stroke-width="1"/>
-      <text x="170" y="70" font-size="10" fill="#38bdf8" font-weight="700" text-anchor="middle" letter-spacing="1.5">DEV // KARAN KUMAR</text>
+      <rect x="80" y="55" width="180" height="22" rx="6" fill="#14171f" stroke="#e3a53d" stroke-width="1"/>
+      <text x="170" y="70" font-size="10" fill="#e3a53d" font-weight="700" text-anchor="middle" letter-spacing="1.5">DEV // KARAN KUMAR</text>
 
       <!-- HUD Bottom Tech Telemetry Strip -->
       <g transform="translate(20, 362)">
-        <rect x="0" y="0" width="300" height="62" rx="12" fill="#101426" stroke="#242c4c" stroke-width="1.2"/>
-        <circle cx="18" cy="20" r="3.5" fill="#10b981"/>
-        <text x="28" y="24" font-size="10.5" fill="#f1f5f9" font-weight="600">ENGINEERING CONSOLE</text>
-        <text x="28" y="44" font-size="10" fill="#94a3b8">Node.js · Python · Java DSA · React</text>
-        <rect x="232" y="12" width="56" height="18" rx="4" fill="#38bdf8" fill-opacity="0.15"/>
-        <text x="260" y="25" font-size="9" fill="#38bdf8" font-weight="700" text-anchor="middle">ACTIVE</text>
+        <rect x="0" y="0" width="300" height="62" rx="12" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <circle cx="18" cy="20" r="3.5" fill="#e3a53d"/>
+        <text x="28" y="24" font-size="10.5" fill="#e9e7e1" font-weight="600">ENGINEERING CONSOLE</text>
+        <text x="28" y="44" font-size="10" fill="#8b8d97">Node.js · Python · Java DSA · React</text>
+        <rect x="232" y="12" width="56" height="18" rx="4" fill="#e3a53d" fill-opacity="0.15"/>
+        <text x="260" y="25" font-size="9" fill="#e3a53d" font-weight="700" text-anchor="middle">ACTIVE</text>
       </g>
     </g>
   </g>

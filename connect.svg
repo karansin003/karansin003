@@ -18,14 +18,14 @@
     </style>
 
     <linearGradient id="connectBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#11152a"/>
-      <stop offset="100%" stop-color="#080a14"/>
+      <stop offset="0%" stop-color="#14171f"/>
+      <stop offset="100%" stop-color="#0b0d12"/>
     </linearGradient>
 
     <linearGradient id="connectBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#262a42" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="0%" stop-color="#e3a53d" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#22262f" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3d5a63" stop-opacity="0.6"/>
     </linearGradient>
 
     <pattern id="connectDots" width="22" height="22" patternUnits="userSpaceOnUse">
@@ -49,13 +49,13 @@
 
   <!-- ==================== LEFT: DEVELOPER PORTRAIT CARD ==================== -->
   <g class="fu" transform="translate(50, 45)">
-    <rect x="0" y="0" width="350" height="390" rx="18" fill="#14182e" stroke="#252c4d" stroke-width="1.2"/>
+    <rect x="0" y="0" width="350" height="390" rx="18" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
 
     <!-- Header Strip -->
-    <rect x="0" y="0" width="350" height="36" rx="18" fill="#1a203a"/>
-    <rect x="0" y="18" width="350" height="18" fill="#1a203a"/>
-    <text x="20" y="23" font-size="11" fill="#38bdf8" font-weight="700" letter-spacing="1.5">DEVELOPER IDENTIFIER</text>
-    <circle cx="326" cy="18" r="4" fill="#34d399"/>
+    <rect x="0" y="0" width="350" height="36" rx="18" fill="#14171f"/>
+    <rect x="0" y="18" width="350" height="18" fill="#14171f"/>
+    <text x="20" y="23" font-size="11" fill="#e3a53d" font-weight="700" letter-spacing="1.5">DEVELOPER IDENTIFIER</text>
+    <circle cx="326" cy="18" r="4" fill="#e3a53d"/>
 
     <!-- Stylized Portrait Image -->
     <g transform="translate(100, 56)">
@@ -77,87 +77,87 @@
 
   <!-- ==================== RIGHT: CONNECT SECTION ==================== -->
   <g class="fu" transform="translate(440, 45)">
-    <text x="0" y="0" font-size="12" fill="#38bdf8" font-weight="700" letter-spacing="2">// LET'S CONNECT</text>
-    <text class="bold-title" x="0" y="32" font-size="28" fill="#f8fafc">Let's build something together</text>
-    <text class="sans-font" x="0" y="58" font-size="14" fill="#94a3b8">Open to collaboration, learning and interesting software projects.</text>
+    <text x="0" y="0" font-size="12" fill="#e3a53d" font-weight="700" letter-spacing="2">// LET'S CONNECT</text>
+    <text class="bold-title" x="0" y="32" font-size="28" fill="#e9e7e1">Let's build something together</text>
+    <text class="sans-font" x="0" y="58" font-size="14" fill="#8b8d97">Open to collaboration, learning and interesting software projects.</text>
 
     <!-- 6 Interactive Connect Cards (2 cols x 3 rows) -->
     <g transform="translate(0, 88)">
       <!-- Col 1, Row 1: GitHub -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14182e" stroke="#252b48" stroke-width="1.2"/>
-        <rect x="14" y="13" width="40" height="40" rx="10" fill="#38bdf8" fill-opacity="0.12"/>
+        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="14" y="13" width="40" height="40" rx="10" fill="#e3a53d" fill-opacity="0.12"/>
         <text x="34" y="38" font-size="18" text-anchor="middle">🐙</text>
-        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#f1f5f9">GitHub Profile</text>
-        <text x="66" y="47" font-size="11.5" fill="#94a3b8">github.com/karansin003</text>
+        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#e9e7e1">GitHub Profile</text>
+        <text x="66" y="47" font-size="11.5" fill="#8b8d97">github.com/karansin003</text>
         <g class="arrow" transform="translate(355, 33)">
-          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#e3a53d" stroke-width="1.8" stroke-linecap="round"/>
         </g>
       </g>
 
       <!-- Col 2, Row 1: LinkedIn -->
       <g transform="translate(405, 0)">
-        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14182e" stroke="#252b48" stroke-width="1.2"/>
+        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
         <rect x="14" y="13" width="40" height="40" rx="10" fill="#0a66c2" fill-opacity="0.15"/>
         <text x="34" y="38" font-size="16" fill="#0a66c2" font-weight="700" text-anchor="middle">in</text>
-        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#f1f5f9">LinkedIn</text>
-        <text x="66" y="47" font-size="11.5" fill="#94a3b8">linkedin.com/in/karan003</text>
+        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#e9e7e1">LinkedIn</text>
+        <text x="66" y="47" font-size="11.5" fill="#8b8d97">linkedin.com/in/karan003</text>
         <g class="arrow" transform="translate(355, 33)">
-          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#e3a53d" stroke-width="1.8" stroke-linecap="round"/>
         </g>
       </g>
 
       <!-- Col 1, Row 2: LeetCode -->
       <g transform="translate(0, 78)">
-        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14182e" stroke="#252b48" stroke-width="1.2"/>
-        <rect x="14" y="13" width="40" height="40" rx="10" fill="#f59e0b" fill-opacity="0.15"/>
-        <text x="34" y="38" font-size="15" fill="#f59e0b" font-weight="700" text-anchor="middle">&lt;&gt;</text>
-        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#f1f5f9">LeetCode (Java DSA)</text>
-        <text x="66" y="47" font-size="11.5" fill="#94a3b8">leetcode.com/u/karansin8672</text>
+        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="14" y="13" width="40" height="40" rx="10" fill="#e3a53d" fill-opacity="0.15"/>
+        <text x="34" y="38" font-size="15" fill="#e3a53d" font-weight="700" text-anchor="middle">&lt;&gt;</text>
+        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#e9e7e1">LeetCode (Java DSA)</text>
+        <text x="66" y="47" font-size="11.5" fill="#8b8d97">leetcode.com/u/karansin8672</text>
         <g class="arrow" transform="translate(355, 33)">
-          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#f59e0b" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#e3a53d" stroke-width="1.8" stroke-linecap="round"/>
         </g>
       </g>
 
       <!-- Col 2, Row 2: Portfolio -->
       <g transform="translate(405, 78)">
-        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14182e" stroke="#252b48" stroke-width="1.2"/>
-        <rect x="14" y="13" width="40" height="40" rx="10" fill="#818cf8" fill-opacity="0.15"/>
+        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="14" y="13" width="40" height="40" rx="10" fill="#3d5a63" fill-opacity="0.2"/>
         <text x="34" y="38" font-size="17" text-anchor="middle">🌐</text>
-        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#f1f5f9">Portfolio Website</text>
-        <text x="66" y="47" font-size="11.5" fill="#94a3b8">karan-kumar.onrender.com</text>
+        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#e9e7e1">Portfolio Website</text>
+        <text x="66" y="47" font-size="11.5" fill="#8b8d97">karan-kumar.onrender.com</text>
         <g class="arrow" transform="translate(355, 33)">
-          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#818cf8" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#e3a53d" stroke-width="1.8" stroke-linecap="round"/>
         </g>
       </g>
 
       <!-- Col 1, Row 3: Email -->
       <g transform="translate(0, 156)">
-        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14182e" stroke="#252b48" stroke-width="1.2"/>
+        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
         <rect x="14" y="13" width="40" height="40" rx="10" fill="#ef4444" fill-opacity="0.15"/>
         <text x="34" y="38" font-size="17" text-anchor="middle">✉️</text>
-        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#f1f5f9">Direct Email</text>
-        <text x="66" y="47" font-size="11.5" fill="#94a3b8">karansin8672@gmail.com</text>
+        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#e9e7e1">Direct Email</text>
+        <text x="66" y="47" font-size="11.5" fill="#8b8d97">karansin8672@gmail.com</text>
         <g class="arrow" transform="translate(355, 33)">
-          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#e3a53d" stroke-width="1.8" stroke-linecap="round"/>
         </g>
       </g>
 
       <!-- Col 2, Row 3: X (Twitter) -->
       <g transform="translate(405, 156)">
-        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14182e" stroke="#252b48" stroke-width="1.2"/>
-        <rect x="14" y="13" width="40" height="40" rx="10" fill="#38bdf8" fill-opacity="0.15"/>
-        <text x="34" y="38" font-size="16" fill="#f1f5f9" font-weight="700" text-anchor="middle">𝕏</text>
-        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#f1f5f9">X (Twitter)</text>
-        <text x="66" y="47" font-size="11.5" fill="#94a3b8">x.com/KaranKumar51768</text>
+        <rect x="0" y="0" width="385" height="66" rx="14" fill="#14171f" stroke="#22262f" stroke-width="1.2"/>
+        <rect x="14" y="13" width="40" height="40" rx="10" fill="#e3a53d" fill-opacity="0.15"/>
+        <text x="34" y="38" font-size="16" fill="#e9e7e1" font-weight="700" text-anchor="middle">𝕏</text>
+        <text class="bold-title" x="66" y="28" font-size="14.5" fill="#e9e7e1">X (Twitter)</text>
+        <text x="66" y="47" font-size="11.5" fill="#8b8d97">x.com/KaranKumar51768</text>
         <g class="arrow" transform="translate(355, 33)">
-          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M-4 0 H4 M0 -4 L4 0 L0 4" fill="none" stroke="#e3a53d" stroke-width="1.8" stroke-linecap="round"/>
         </g>
       </g>
     </g>
 
     <!-- Bottom Quote Motto -->
-    <text class="fu" x="0" y="354" font-size="13" fill="#64748b" style="animation-delay: 0.8s;">
+    <text class="fu" x="0" y="354" font-size="13" fill="#8b8d97" style="animation-delay: 0.8s;">
       &quot;Code. Learn. Build. Repeat.&quot; · Open to SDE internships &amp; software engineering roles.
     </text>
   </g>
