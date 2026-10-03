@@ -17,7 +17,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ⚡ SECTION 3 — TECH STACK ORBIT -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<img src="./stack.svg" alt="Tech Stack Orbit &amp; Tooling — Karan Kumar" width="100%"/>
+<img src="./stack.svg" width="100%" alt="Technologies and Libraries"/>
 
 <br/><br/>
 
