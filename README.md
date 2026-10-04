@@ -37,10 +37,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=karansin003&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0e16&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="165"/>
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=karansin003&theme=tokyonight&no-bg=true&no-frame=true&margin-w=10" alt="GitHub Trophies" width="88%"/>
-</p>
-
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- 🛠️ SECTION 5 — FEATURED PROJECTS -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
